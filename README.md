@@ -122,6 +122,7 @@ Next there are 10 sections of 24 bytes in size: size (4 byte), ??? (4 bytes), of
     0100 |00005000 22b82134 10c0f350 ffffffff 0000000000000000
     0118 |034445cf b763ed14 10c14350 7fffffff 0000000000000000
     #     size     ???      offset   ???      ???
+    # One of those has to be checksum, possibly the last field
 
 The same but in decimal:
 
@@ -172,11 +173,64 @@ Now we can mount this filesystem:
 
 Note: chunks6 and 7 are ext4, chunk9 looks to be a swap partition. The other? Don't know.
 
+chunk6 is root filesystem, chunk7 is ```/opt``` mount point.
+
+Getting Inside
+--------------
+
+Looks like there's not way to get a remote console; trying to connect on any of the non-HTTP ports gets you nowhere. For the moment I didn't find any hooks to enable debug mode or something smiliar. Just possibly there's a console but on a hardware serial port.
+
+### Interesting files
+
+```/usr/apps/com.samsung.di-camera-app/bin/di-camera-app``` - looks like the main camera application, anything interesting there:
+    
+    > strings ./di-camera-app    
+    sdcard_name
+    sdcard_name_eng
+    /sdcard/osd_capture
+    /sdcard/temp/
+    make directorr /sdcard/temp/
+    /sdcard/temp/temp_%d_%d.txt
+    /opt/storage/sdcard/
+    /opt/storage/sdcard/%s.bin
+    /opt/storage/sdcard/%s_eng.bin
+    /opt/storage/sdcard/smc200.bin
+    /opt/storage/sdcard/smc200_eng.bin
+    /sdcard/test.internet
+    /sdcard/SYSTEM/
+    /sdcard/SYSTEM/system.bin
+    chmod +t /sdcard/system/system.bin
+    set url file:///sdcard/1.html
+    /sdcard/
+
+Putting smc200.bin file on the sdcard doesn't do anything.
+
+ ```/etc/passwd```:
+ 
+    > grep -v false /etc/passwd
+    root::0:0:root:/root:/bin/sh
+    bin:*:1:1:bin:/bin:
+    daemon:*:2:2:daemon:/sbin:
+    ftp:*:14:50:FTP User:/home/ftp:
+    system:x:1000:1000:system:/home/system:/bin/sh
+    app:x:5000:5000:In-house application:/home/app:/bin/sh
+    sshd:x:112:65534::/var/run/sshd:/usr/sbin/nologin
+
+### Grepping
+
+Grepping the whole filesystem for ```sdcard``` and ```.tg``` did not result in any interesting discoveries, except if you put ```info.tg``` on sdcard and start the camera - some kind of test mode is enabled, to turn it off you have to remove the file from the sdcard.
+
+### chroot
+
+It is possible to inspect some applications using qemu-user-static (see this answer on [stackoverflow](http://unix.stackexchange.com/a/222981), also [here](https://wiki.gentoo.org/wiki/Crossdev_qemu-static-user-chroot)). That way we can chroot into mounted Gear360 images and run programs which are there (not everything will work as it is not real hardware).
+
 Links
--------
+-----
 
 Few links:
 
 - [official Samsung Gear360 website](http://www.samsung.com/global/galaxy/gear-360/),
 - [source code for Samsung Gear360](https://opensource.samsung.com/reception/receptionSub.do?method=sub&sub=T&menu_item=mobile&classification1=mp3_player), 1.4 GB, note: not everything is open source in the final firmware, there are also no instructions how to flash the firmware).
 - [firmware file version 0.7](https://www.samsungimaging.com/file/download?XmlIdx=280&file=C200GLU0APE4_160519_1848_REV00_user.bin) (~340 MB).
+
+Note that some things can be copied from NX-* camera tutorials/guides (some things are similar).
