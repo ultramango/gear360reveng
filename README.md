@@ -24,8 +24,8 @@ Android application uses Bluetooth communication to send commands to the camera,
 
 Newer versions of Android have built-in functionality to dump Bluetooth traffic (you have to have [Developer Mode](https://www.google.nl/?ion=1&espv=2#q=how%20to%20enable%20developer%20mode%20on%20android) enabled). Go to Settings → Developer options → Select Bluetooth HCI snoop log. Log/dump file is then saved in ```/sdcard/btsnoop_hci.log``` (or not: see [stackoverflow](http://stackoverflow.com/questions/28445552/bluetooth-hci-snoop-log-not-generated)). Such file can be viewed with [Wireshark](https://www.wireshark.org/).
 
-Android image here
-Wireshark image here
+![Android Bluetooth dump setting](bluetooth_dump_256p.png?raw=true "Android Bluetooth dump setting")
+![Wireshark and Bluetooth dump](wireshark_bt.png?raw=true "Wireshark and Bluetooth dump")
 
 Communication uses [JSON Format](https://en.wikipedia.org/wiki/JSON). Under Linux you can initiate Bluetooth serial connection with Gear360, but the data exchange protocol is not yet known:
 
