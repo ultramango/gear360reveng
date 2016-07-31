@@ -205,8 +205,8 @@ Looks like there's not way to get a remote console; trying to connect on any of 
 
 Putting smc200.bin file on the sdcard doesn't do anything.
 
- ```/etc/passwd```:
- 
+File: ```/etc/passwd```:
+
     > grep -v false /etc/passwd
     root::0:0:root:/root:/bin/sh
     bin:*:1:1:bin:/bin:
