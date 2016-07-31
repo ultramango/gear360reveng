@@ -12,7 +12,7 @@ Next thing is to decompile .apk file, I used [this online service](http://www.ja
 
 Few interesting bits:
 
-- file ```com/samsung/android/samsunggear360manager/app/btm/FWConstants.java``` contains location of proxy file that contains link to firmware file: ```public static final String FW_DOWNLOAD_SERVER_URL = "https://www.samsungimaging.com/common/support/firmware/downloadUrlList.do?prd_mdl_name=SM-C200&loc=global";```, now, this contains [link to firmware file](https://www.samsungimaging.com/file/download?XmlIdx=280&file),
+- file ```com/samsung/android/samsunggear360manager/app/btm/FWConstants.java``` contains location of proxy file that contains link to firmware file: ```public static final String FW_DOWNLOAD_SERVER_URL = "https://www.samsungimaging.com/common/support/firmware/downloadUrlList.do?prd_mdl_name=SM-C200&loc=global";```, now, this contains [link to firmware file](https://www.samsungimaging.com/file/download?XmlIdx=280&file=C200GLU0APE4_160519_1848_REV00_user.bin),
 - file ```com/samsung/android/samsunggear360manager/app/btm/datatype/BTJsonSerializableMsgId.java``` contains constants with message types that are used during Bluetooth communication.
 
 Communication
@@ -179,4 +179,4 @@ Few links:
 
 - [official Samsung Gear360 website](http://www.samsung.com/global/galaxy/gear-360/),
 - [source code for Samsung Gear360](https://opensource.samsung.com/reception/receptionSub.do?method=sub&sub=T&menu_item=mobile&classification1=mp3_player), 1.4 GB, note: not everything is open source in the final firmware, there are also no instructions how to flash the firmware).
-- [firmware file version 0.7](https://www.samsungimaging.com/file/download?XmlIdx=280&file) (~340 MB).
+- [firmware file version 0.7](https://www.samsungimaging.com/file/download?XmlIdx=280&file=C200GLU0APE4_160519_1848_REV00_user.bin) (~340 MB).
