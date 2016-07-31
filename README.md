@@ -224,6 +224,12 @@ Grepping the whole filesystem for ```sdcard``` and ```.tg``` did not result in a
 
 It is possible to inspect some applications using qemu-user-static (see this answer on [stackoverflow](http://unix.stackexchange.com/a/222981), also [here](https://wiki.gentoo.org/wiki/Crossdev_qemu-static-user-chroot)). That way we can chroot into mounted Gear360 images and run programs which are there (not everything will work as it is not real hardware).
 
+### info.tg
+
+It looks like the trick described here: [telnet on nx500](https://github.com/ottokiksmaler/nx500_nx1_modding/blob/master/Running-telnet-server-on-camera.md) almost works. The problem is that if you follow that guide a script will be executed, but... since camera stays in test mode it is not possible to connect to it. One solution would be to initiate a connection from the script, or somehow exit test mode.
+
+Somewhere in the image there's a mention about ```info.tgw```, it still displays test menu, but it is possible to connect to camera, but... script is not executed.
+
 Links
 -----
 
