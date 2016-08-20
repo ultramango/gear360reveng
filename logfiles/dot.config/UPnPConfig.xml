@@ -1,0 +1,44 @@
+<!-- SMPDEBUG_LEVEL 1:INFO 2:ERROR  3:INFO & ERROR --><UPnPConfig>  
+<WebServerPort>5215</WebServerPort>
+<UPnPServerPort>5216</UPnPServerPort>
+<HTTPTCPServerPort>7676</HTTPTCPServerPort>
+<HTTPUDPServerPort>24234</HTTPUDPServerPort>
+<HTTPMulticastServerPort>1900</HTTPMulticastServerPort>
+<HTTPMulticastEventServerPort>7900</HTTPMulticastEventServerPort>
+<HTTPStreamingPort>7679</HTTPStreamingPort>
+<OsVersion>Windows</OsVersion>
+<ProductVersion>Samsung-DigitalMediaServer</ProductVersion>
+ <ProfileList>
+    <Profile>
+      <ProfileName>DMS</ProfileName>
+      <ProfileDescPath>/mnt/mmc/.config/DMS/xml</ProfileDescPath>
+    </Profile>
+    <Profile>
+      <ProfileName>DMC</ProfileName>
+      <ProfileDescPath>/mnt/mmc/.config/DMC</ProfileDescPath>
+    </Profile>
+    <Profile>
+      <ProfileName>MSCP</ProfileName>
+      <ProfileDescPath>/mnt/mmc/.config/DMC/MSCP/xml</ProfileDescPath>
+    </Profile>
+    <Profile>
+      <ProfileName>MRCP</ProfileName>
+      <ProfileDescPath>/mnt/mmc/.config/DMC/MRCP/xml</ProfileDescPath>
+    </Profile>
+    <Profile>
+      <ProfileName>MTPUPNP</ProfileName>
+      <ProfileDescPath>/mnt/mmc/.config/MTPUPNP/xml</ProfileDescPath>
+    </Profile>
+ </ProfileList>
+<DescFileName>ServerDeviceDescription.xml</DescFileName>
+<CacheControlTime>1800</CacheControlTime>
+<TTL>2</TTL>
+<MaxAge>1810</MaxAge>
+<AutoAuthenticate>0</AutoAuthenticate>
+<SHARED-MEDIA-FOLDER-PATH>/mnt/mmc/DCIM</SHARED-MEDIA-FOLDER-PATH>
+<MEDIA-DB-FILEPATH>/mnt/mmc/.config/DMS/media.db</MEDIA-DB-FILEPATH>
+<MEDIA-TV-DB-FILEPATH>/mnt/mmc/.config/DMS/media_tv.db</MEDIA-TV-DB-FILEPATH>
+<DefaultContainer>5</DefaultContainer>
+<MSCP-DB-FILEPATH>/mnt/mmc/.config/DMC/MSCP/mscp.db</MSCP-DB-FILEPATH>
+<SMPDEBUG_LEVEL>3</SMPDEBUG_LEVEL>
+</UPnPConfig>

@@ -1,0 +1,45 @@
+Executable File Path: /usr/apps/com.samsung.di-camera-app/bin/di-camera-app
+Signal: 6
+      (SIGABRT)
+      si_code: -6
+      signal sent by tkill (sent by pid 255, uid 0)
+
+Register Information
+r0   = 0x00000000, r1   = 0x00000249
+r2   = 0x00000006, r3   = 0x00000249
+r4   = 0x00000006, r5   = 0x000f5528
+r6   = 0xb35e9bec, r7   = 0x0000010c
+r8   = 0x73375120, r9   = 0x368e8f70
+r10  = 0x368e8f70, fp   = 0x00000000
+ip   = 0x733755e0, sp   = 0x73374640
+lr   = 0xb34f46bc, pc   = 0xb34f09e8
+cpsr = 0x20000010
+
+Memory Information
+MemTotal:   376880 KB
+MemFree:      2716 KB
+Buffers:      7104 KB
+Cached:      64544 KB
+VmPeak:    1254512 KB
+VmSize:     351184 KB
+VmLck:           0 KB
+VmPin:           0 KB
+VmHWM:       52760 KB
+VmRSS:       52760 KB
+VmData:     236516 KB
+VmStk:         136 KB
+VmExe:        4172 KB
+VmLib:       52204 KB
+VmPTE:        1024 KB
+VmSwap:          0 KB
+
+Threads Information
+Threads: 25
+PID = 255 TID = 585
+255 264 265 266 267 268 269 270 271 282 283 287 288 289 293 429 585 586 587 669 670 671 672 673 674 
+
+Callstack Information (PID:255)
+Call Stack Count: 2
+ 0: gsignal + 0x3c (0xb34f09e8) [/lib/libc.so.6] + 0xb34f09e8
+ 1: (0x789ae0) (null)
+End of Call Stack
