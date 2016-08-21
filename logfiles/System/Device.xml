@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<SDP version="0.9" domain="Particular">
+	<Device>
+		<ModelName	  value="SAMSUNG CAMERA"/>
+		<BaseModelName  value="SAMSUNG SMC200"/>
+		<VID value="0x4e8" />
+		<PID value="0x1411"/>
+	</Device>
+</SDP>

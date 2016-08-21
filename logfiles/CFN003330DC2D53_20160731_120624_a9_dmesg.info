@@ -1,0 +1,1177 @@
+<6>[ 1:  287.643327] I/KERNEL       (K 213): sec-battery sec-battery.0: sec_bat_monitor_work: Status(Discharging), Mode(None), Health(Good), Cable(1), Vendor((null)), level(100%)
+<4>[ 1:  287.780033] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  288.775977] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  289.777153] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  290.777747] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  291.776528] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  292.778850] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  293.780952] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  294.783724] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  295.786484] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  296.788766] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<6>[ 1:  297.662141] I/KERNEL       (K 213): sm5703-fuelgauge 4-0071: fg_vbatocv_check: mode change to mix RS auto mode
+<6>[ 1:  297.663985] I/KERNEL       (K 213): sm5703-fuelgauge 4-0071: sm5703_get_soc: temp_fg = 177 , batt_temp = 320, volt_cal = 0x809e, curr_cal = 0x8085, high_temp_cal_fact = 0, low_temp_cal_fact = 0 soc = 810
+<6>[ 1:  297.664013] I/KERNEL       (K 213): sec-battery sec-battery.0: sec_bat_get_battery_info:Vnow(3937mV),Inow(-703mA),Imax(1000mA),SOC(81%),Tbat(320),is_hc_usb(0)
+<6>[ 1:  297.664031] I/KERNEL       (K 213): sec-battery sec-battery.0: Connected,Vavg(3935mV),Vocv(4128mV),Tamb(320),Iavg(-675mA),Iadc(0)
+<6>[ 1:  297.665074] I/KERNEL       (K 213): sec_bat_swelling_check: status(2), swell_mode(0:0), cv(0x1126), temp(320)
+<6>[ 1:  297.665089] I/KERNEL       (K 213): sec_bat_swelling_check: DISCHARGING or NOT-CHARGING. stop swelling mode
+<6>[ 1:  297.665111] I/KERNEL       (K 213): sec-battery sec-battery.0: sec_bat_monitor_work: Status(Discharging), Mode(None), Health(Good), Cable(1), Vendor((null)), level(100%)
+<4>[ 1:  297.789768] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  298.790787] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  299.775537] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  300.776259] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  301.777162] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  302.778346] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  303.774047] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  304.238130] I/KERNEL       (K 213): BTK hci_event_packet > event(0x04)
+<4>[ 1:  304.238155] I/KERNEL       (K 213): BTK hci_conn_request_evt > hci0 bdaddr 80:33:01:5f:14:34 type 0x1
+<4>[ 1:  304.255587] I/KERNEL       (K  29): BTK l2cap_config_req > dcid 0x0041 flags 0x00BTK l2cap_config_rsp > scid 0x0041 flags 0x00 result 0x00 len 0BTK hci_event_packet > event(0x03)
+<4>[ 1:  304.269258] I/KERNEL       (K 213): BTK l2cap_information_req > +
+<4>[ 1:  304.771772] I/KERNEL       (K  29): BTK l2cap_information_req > +
+<4>[ 1:  304.789379] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  304.991742] I/KERNEL       (K 213): BTK l2cap_sock_new_connection_cb >
+<4>[ 1:  305.063003] I/KERNEL       (K  29): BTK l2cap_config_req > dcid 0x0040 flags 0x00
+<4>[ 1:  305.063006] I/KERNEL       (K  29): BTK l2cap_config_rsp > scid 0x0040 flags 0x00 result 0x00 len 0BTK l2cap_sock_accept > timeo 2147483647
+<4>[ 1:  305.063331] I/KERNEL       (K 358): BTK l2cap_sock_accept > new socket
+<4>[ 1:  305.652985] I/KERNEL       (K 213): BTK l2cap_sock_new_connection_cb >
+<4>[ 1:  305.702196] I/KERNEL       (K  41): BTK l2cap_sock_accept > timeo 0
+<4>[ 1:  305.702217] I/KERNEL       (K  41): BTK l2cap_sock_accept > new socket
+<4>[ 1:  305.776296] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  305.979992] I/KERNEL       (K 358): BTK rfcomm_sock_accept > DECLARE_WAITQUEUE
+<4>[ 1:  305.980025] I/KERNEL       (K 358): BTK rfcomm_sock_accept > sk c6d1ee00 timeo 0
+<4>[ 1:  305.980038] I/KERNEL       (K 358): BTK rfcomm_sock_accept > new socket c6d1e800
+<4>[ 1:  306.216770] I/KERNEL       (K 213): l2cap_connect_create_rsp > +
+<4>[ 1:  306.216807] I/KERNEL       (K 213): l2cap_connect_create_rsp > -
+<4>[ 1:  306.244514] I/KERNEL       (K 213): BTK l2cap_config_req > dcid 0x0040 flags 0x00BTK l2cap_config_rsp > scid 0x0040 flags 0x00 result 0x00 len 0
+<4>[ 1:  306.244516] I/KERNEL       (K 213): BTK l2cap_config_req > dcid 0x0041 flags 0x00<4>[ 1:  306.776948] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<6>[ 1:  307.701640] I/KERNEL       (K 213): sm5703-fuelgauge 4-0071: fg_vbatocv_check: mode change to mix RS auto mode
+<6>[ 1:  307.703496] I/KERNEL       (K 213): sm5703-fuelgauge 4-0071: sm5703_get_soc: temp_fg = 177 , batt_temp = 320, volt_cal = 0x809e, curr_cal = 0x8085, high_temp_cal_fact = 0, low_temp_cal_fact = 0 soc = 808
+<6>[ 1:  307.703522] I/KERNEL       (K 213): sec-battery sec-battery.0: sec_bat_get_battery_info:Vnow(3941mV),Inow(-703mA),Imax(1000mA),SOC(80%),Tbat(320),is_hc_usb(0)
+<6>[ 1:  307.703536] I/KERNEL       (K 213): sec-battery sec-battery.0: Connected,Vavg(3938mV),Vocv(4128mV),Tamb(320),Iavg(-696mA),Iadc(0)
+<6>[ 1:  307.704272] I/KERNEL       (K 213): sec_bat_swelling_check: status(2), swell_mode(0:0), cv(0x1126), temp(320)
+<6>[ 1:  307.704282] I/KERNEL       (K 213): sec_bat_swelling_check: DISCHARGING or NOT-CHARGING. stop swelling mode
+<6>[ 1:  307.704304] I/KERNEL       (K 213): sec-battery sec-battery.0: sec_bat_monitor_work: Status(Discharging), Mode(None), Health(Good), Cable(1), Vendor((null)), level(100%)
+<4>[ 1:  307.776561] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  308.778577] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  309.781261] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  310.783760] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  311.786340] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  312.788049] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  313.789313] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  314.790242] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  315.775504] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  317.052253] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<6>[ 1:  317.721882] I/KERNEL       (K 213): sm5703-fuelgauge 4-0071: fg_vbatocv_check: mode change to mix RS auto mode
+<6>[ 1:  317.723901] I/KERNEL       (K 213): sm5703-fuelgauge 4-0071: sm5703_get_soc: temp_fg = 177 , batt_temp = 330, volt_cal = 0x809e, curr_cal = 0x8085, high_temp_cal_fact = 0, low_temp_cal_fact = 0 soc = 807
+<6>[ 1:  317.723935] I/KERNEL       (K 213): sec-battery sec-battery.0: sec_bat_get_battery_info:Vnow(3925mV),Inow(-656mA),Imax(1000mA),SOC(80%),Tbat(330),is_hc_usb(0)
+<6>[ 1:  317.723950] I/KERNEL       (K 213): sec-battery sec-battery.0: Connected,Vavg(3934mV),Vocv(4125mV),Tamb(330),Iavg(-683mA),Iadc(0)
+<6>[ 1:  317.724523] I/KERNEL       (K 213): sec_bat_swelling_check: status(2), swell_mode(0:0), cv(0x1126), temp(330)
+<6>[ 1:  317.725206] I/KERNEL       (K 213): sec_bat_swelling_check: DISCHARGING or NOT-CHARGING. stop swelling mode
+<6>[ 1:  317.725240] I/KERNEL       (K 213): sec-battery sec-battery.0: sec_bat_monitor_work: Status(Discharging), Mode(None), Health(Good), Cable(1), Vendor((null)), level(100%)
+<4>[ 1:  317.781097] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  318.108332] I/KERNEL       (K 358): BTK rfcomm_sock_create > c1700c00
+<4>[ 1:  318.108385] I/KERNEL       (K 358): BTK rfcomm_sock_bind > xx:xx:xx:70:38:c8 
+<4>[ 1:  318.108807] I/KERNEL       (K 358): BTK rfcomm_sock_listen > 5
+<4>[ 1:  318.216271] I/KERNEL       (K 358): BTK rfcomm_sock_create > c1700600
+<4>[ 1:  318.216741] I/KERNEL       (K 358): BTK rfcomm_sock_bind > xx:xx:xx:70:38:c8 
+<4>[ 1:  318.216793] I/KERNEL       (K 358): BTK rfcomm_sock_listen > 5
+<4>[ 1:  318.777523] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  319.773587] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  320.774300] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  321.775508] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  322.776247] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  323.776416] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  324.778512] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  325.781157] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  326.783587] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<6>[ 1:  327.742440] I/KERNEL       (K 213): sm5703-fuelgauge 4-0071: fg_vbatocv_check: mode change to mix RS auto mode
+<6>[ 1:  327.744291] I/KERNEL       (K 213): sm5703-fuelgauge 4-0071: sm5703_get_soc: temp_fg = 177 , batt_temp = 330, volt_cal = 0x809e, curr_cal = 0x8085, high_temp_cal_fact = 0, low_temp_cal_fact = 0 soc = 805
+<6>[ 1:  327.744316] I/KERNEL       (K 213): sec-battery sec-battery.0: sec_bat_get_battery_info:Vnow(3937mV),Inow(-660mA),Imax(1000mA),SOC(80%),Tbat(330),is_hc_usb(0)
+<6>[ 1:  327.744335] I/KERNEL       (K 213): sec-battery sec-battery.0: Connected,Vavg(3931mV),Vocv(4125mV),Tamb(330),Iavg(-664mA),Iadc(0)
+<6>[ 1:  327.746009] I/KERNEL       (K 213): sec_bat_swelling_check: status(2), swell_mode(0:0), cv(0x1126), temp(330)
+<6>[ 1:  327.746032] I/KERNEL       (K 213): sec_bat_swelling_check: DISCHARGING or NOT-CHARGING. stop swelling mode
+<6>[ 1:  327.746053] I/KERNEL       (K 213): sec-battery sec-battery.0: sec_bat_monitor_work: Status(Discharging), Mode(None), Health(Good), Cable(1), Vendor((null)), level(100%)
+<4>[ 1:  327.786899] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  328.787605] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  329.789118] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  330.789808] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  331.775720] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  332.778470] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  333.775980] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  334.777064] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  335.773033] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  336.774063] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  337.774806] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<6>[ 1:  337.784062] I/KERNEL       (K 213): sm5703-fuelgauge 4-0071: fg_vbatocv_check: mode change to mix RS auto mode
+<6>[ 1:  337.786900] I/KERNEL       (K 213): sm5703-fuelgauge 4-0071: sm5703_get_soc: temp_fg = 177 , batt_temp = 330, volt_cal = 0x809e, curr_cal = 0x8085, high_temp_cal_fact = 0, low_temp_cal_fact = 0 soc = 804
+<6>[ 1:  337.786933] I/KERNEL       (K 213): sec-battery sec-battery.0: sec_bat_get_battery_info:Vnow(3933mV),Inow(-632mA),Imax(1000mA),SOC(80%),Tbat(330),is_hc_usb(0)
+<6>[ 1:  337.786947] I/KERNEL       (K 213): sec-battery sec-battery.0: Connected,Vavg(3934mV),Vocv(4125mV),Tamb(330),Iavg(-650mA),Iadc(0)
+<6>[ 1:  337.787433] I/KERNEL       (K 213): sec_bat_swelling_check: status(2), swell_mode(0:0), cv(0x1126), temp(330)
+<6>[ 1:  337.787442] I/KERNEL       (K 213): sec_bat_swelling_check: DISCHARGING or NOT-CHARGING. stop swelling mode
+<6>[ 1:  337.787460] I/KERNEL       (K 213): sec-battery sec-battery.0: sec_bat_monitor_work: Status(Discharging), Mode(None), Health(Good), Cable(1), Vendor((null)), level(100%)
+<4>[ 1:  338.775842] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  339.776124] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  340.778290] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  341.781146] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  342.783552] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  343.785975] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  344.787170] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  345.787778] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  346.790965] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  347.775716] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<6>[ 1:  347.820893] I/KERNEL       (K 213): sm5703-fuelgauge 4-0071: fg_vbatocv_check: mode change to mix RS auto mode
+<6>[ 1:  347.823093] I/KERNEL       (K 213): sm5703-fuelgauge 4-0071: sm5703_get_soc: temp_fg = 177 , batt_temp = 330, volt_cal = 0x809e, curr_cal = 0x8085, high_temp_cal_fact = 0, low_temp_cal_fact = 0 soc = 802
+<6>[ 1:  347.823118] I/KERNEL       (K 213): sec-battery sec-battery.0: sec_bat_get_battery_info:Vnow(3929mV),Inow(-671mA),Imax(1000mA),SOC(80%),Tbat(330),is_hc_usb(0)
+<6>[ 1:  347.823132] I/KERNEL       (K 213): sec-battery sec-battery.0: Connected,Vavg(3931mV),Vocv(4121mV),Tamb(330),Iavg(-650mA),Iadc(0)
+<6>[ 1:  347.823606] I/KERNEL       (K 213): sec_bat_swelling_check: status(2), swell_mode(0:0), cv(0x1126), temp(330)
+<6>[ 1:  347.823616] I/KERNEL       (K 213): sec_bat_swelling_check: DISCHARGING or NOT-CHARGING. stop swelling mode
+<6>[ 1:  347.823634] I/KERNEL       (K 213): sec-battery sec-battery.0: sec_bat_monitor_work: Status(Discharging), Mode(None), Health(Good), Cable(1), Vendor((null)), level(100%)
+<4>[ 1:  348.779407] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  349.781832] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  350.771334] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  351.772280] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  352.773034] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  353.774007] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  354.775156] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  355.776350] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  356.778846] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  357.781790] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<6>[ 1:  357.841499] I/KERNEL       (K 213): sm5703-fuelgauge 4-0071: fg_vbatocv_check: mode change to mix RS auto mode
+<6>[ 1:  357.843339] I/KERNEL       (K 213): sm5703-fuelgauge 4-0071: sm5703_get_soc: temp_fg = 177 , batt_temp = 330, volt_cal = 0x809e, curr_cal = 0x8085, high_temp_cal_fact = 0, low_temp_cal_fact = 0 soc = 801
+<6>[ 1:  357.843366] I/KERNEL       (K 213): sec-battery sec-battery.0: sec_bat_get_battery_info:Vnow(3933mV),Inow(-750mA),Imax(1000mA),SOC(80%),Tbat(330),is_hc_usb(0)
+<6>[ 1:  357.843385] I/KERNEL       (K 213): sec-battery sec-battery.0: Connected,Vavg(3931mV),Vocv(4121mV),Tamb(330),Iavg(-695mA),Iadc(0)
+<6>[ 1:  357.843870] I/KERNEL       (K 213): sec_bat_swelling_check: status(2), swell_mode(0:0), cv(0x1126), temp(330)
+<6>[ 1:  357.843880] I/KERNEL       (K 213): sec_bat_swelling_check: DISCHARGING or NOT-CHARGING. stop swelling mode
+<6>[ 1:  357.843899] I/KERNEL       (K 213): sec-battery sec-battery.0: sec_bat_monitor_work: Status(Discharging), Mode(None), Health(Good), Cable(1), Vendor((null)), level(100%)
+<4>[ 1:  358.783698] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  359.785267] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  360.786174] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  361.787290] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  362.788813] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  363.775982] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  364.779278] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  365.781773] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  366.771305] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  367.772231] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<6>[ 1:  367.861325] I/KERNEL       (K 213): sm5703-fuelgauge 4-0071: fg_vbatocv_check: mode change to mix RS auto mode
+<6>[ 1:  367.863385] I/KERNEL       (K 213): sm5703-fuelgauge 4-0071: sm5703_get_soc: temp_fg = 177 , batt_temp = 330, volt_cal = 0x809e, curr_cal = 0x8085, high_temp_cal_fact = 0, low_temp_cal_fact = 0 soc = 799
+<6>[ 1:  367.863409] I/KERNEL       (K 213): sec-battery sec-battery.0: sec_bat_get_battery_info:Vnow(3925mV),Inow(-730mA),Imax(1000mA),SOC(79%),Tbat(330),is_hc_usb(0)
+<6>[ 1:  367.863423] I/KERNEL       (K 213): sec-battery sec-battery.0: Connected,Vavg(3929mV),Vocv(4117mV),Tamb(330),Iavg(-728mA),Iadc(0)
+<6>[ 1:  367.864659] I/KERNEL       (K 213): sec_bat_swelling_check: status(2), swell_mode(0:0), cv(0x1126), temp(330)
+<6>[ 1:  367.864672] I/KERNEL       (K 213): sec_bat_swelling_check: DISCHARGING or NOT-CHARGING. stop swelling mode
+<6>[ 1:  367.864695] I/KERNEL       (K 213): sec-battery sec-battery.0: sec_bat_monitor_work: Status(Discharging), Mode(None), Health(Good), Cable(1), Vendor((null)), level(100%)
+<4>[ 1:  367.928194] I/KERNEL       (K 213): BTK hci_event_packet > event(0x04)
+<4>[ 1:  367.928220] I/KERNEL       (K 213): BTK hci_conn_request_evt > hci0 bdaddr 80:33:01:5f:14:34 type 0x1
+<4>[ 1:  367.943156] I/KERNEL       (K  29): BTK l2cap_config_rsp > scid 0x0041 flags 0x00 result 0x00 len 0BTK hci_event_packet > event(0x03)
+<4>[ 1:  367.954425] I/KERNEL       (K 213): BTK l2cap_information_req > +
+<4>[ 1:  367.966804] I/KERNEL       (K 213): BTK l2cap_information_req > +
+<4>[ 1:  367.980663] I/KERNEL       (K 213): BTK l2cap_sock_new_connection_cb >
+<4>[ 1:  367.990563] I/KERNEL       (K  29): BTK l2cap_config_req > dcid 0x0040 flags 0x00
+<4>[ 1:  367.990566] I/KERNEL       (K  29): BTK l2cap_config_rsp > scid 0x0040 flags 0x00 result 0x00 len 0BTK l2cap_sock_accept > timeo 2147483647
+<4>[ 1:  367.990901] I/KERNEL       (K 358): BTK l2cap_sock_accept > new socket
+<4>[ 1:  368.049599] I/KERNEL       (K 213): BTK l2cap_sock_new_connection_cb >
+<4>[ 1:  368.056796] I/KERNEL       (K  29): BTK l2cap_config_req > dcid 0x0040 flags 0x00
+<4>[ 1:  368.056799] I/KERNEL       (K  29): BTK l2cap_config_rsp > scid 0x0040 flags 0x00 result 0x00 len 0BTK l2cap_sock_accept > timeo 0
+<4>[ 1:  368.056920] I/KERNEL       (K  41): BTK l2cap_sock_accept > new socket
+<4>[ 1:  368.074469] I/KERNEL       (K 358): BTK rfcomm_sock_accept > DECLARE_WAITQUEUE
+<4>[ 1:  368.074501] I/KERNEL       (K 358): BTK rfcomm_sock_accept > sk c14c0c00 timeo 0
+<4>[ 1:  368.074852] I/KERNEL       (K 358): BTK rfcomm_sock_accept > new socket c6d1ec00
+<4>[ 1:  368.276832] I/KERNEL       (K 213): l2cap_connect_create_rsp > +
+<4>[ 1:  368.276870] I/KERNEL       (K 213): l2cap_connect_create_rsp > -
+<4>[ 1:  368.283172] I/KERNEL       (K 213): BTK l2cap_config_req > dcid 0x0041 flags 0x00
+<4>[ 1:  368.283174] I/KERNEL       (K 213): BTK l2cap_config_rsp > scid 0x0041 flags 0x00 result 0x00 len 0BTK rfcomm_sock_create > c751d600
+<4>[ 1:  368.663225] I/KERNEL       (K 358): BTK rfcomm_sock_bind > xx:xx:xx:70:38:c8 
+<4>[ 1:  368.663306] I/KERNEL       (K 358): BTK rfcomm_sock_connect > BT_CONNECTED
+<4>[ 1:  368.790459] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  369.775491] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<6>[ 1:  370.685044] I/KERNEL       (K 255): drime5-rtc drime5-rtc: settime(): 2016.07.31 00:00:38 (UTC) 
+<6>[ 1:  370.685092] I/KERNEL       (K   9): read time 2016.07.31 00:00:38
+<6>[ 1:  370.685111] I/KERNEL       (K   9): drime5_rtc_setaie: alarm enable=0
+<6>[ 1:  370.686123] I/KERNEL       (K 255): drime5-rtc drime5-rtc: rtc reset is cleared. 
+<6>[ 1:  370.686487] I/KERNEL       (K 255): drime5-rtc drime5-rtc: settime(): 2016.07.31 00:00:38 (UTC) 
+<6>[ 1:  370.686536] I/KERNEL       (K   9): read time 2016.07.31 00:00:38
+<6>[ 1:  370.686545] I/KERNEL       (K   9): drime5_rtc_setaie: alarm enable=0
+<6>[ 1:  370.688871] I/KERNEL       (K 255): drime5-rtc drime5-rtc: rtc reset is cleared. 
+<4>[ 1:  370.791037] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<6>[ 1:  370.831186] I/KERNEL       (K 552): ____ show_board_revision(10)
+<4>[ 1:  370.841549] I/KERNEL       (K 553): 
+<4>[ 1:  370.841549] I/KERNEL       (K 553): Dongle Host Driver, version 1.141.64.54 (r)
+<4>[ 1:  370.841549] I/KERNEL       (K 553): Compiled in drivers/net/wireless/bcmdhd on May 17 2016 at 11:11:12
+<4>[ 1:  370.841772] I/KERNEL       (K 553): wl_android_wifi_on in
+<4>[ 1:  370.841789] I/KERNEL       (K 553): wifi_platform_set_power = 1
+<6>[ 1:  370.841804] I/KERNEL       (K 553): ------------------------------------------------
+<6>[ 1:  370.841805] I/KERNEL       (K 553): ------------------------------------------------
+<6>[ 1:  370.841850] I/KERNEL       (K 553): brcm_wlan_power Enter: power on
+<4>[ 1:  370.841865] I/KERNEL       (K 553): [brcm_wlan_power] gpio ok!!!
+<3>[ 1:  370.841873] I/KERNEL       (K 553): sdio_ctrl_power(1)
+<6>[ 1:  370.852284] I/KERNEL       (K 553): mmc_host mmc1: current voltage : 3.3v
+<6>[ 1:  370.864559] I/KERNEL       (K 553): mmc_host mmc1: Bus speed (slot 0) = 12500000Hz (slot req 400000Hz, actual 390625HZ div = 16)
+<6>[ 1:  371.094558] I/KERNEL       (K 553): sdio_reset_comm():
+<6>[ 1:  371.094630] I/KERNEL       (K 553): mmc_host mmc1: Bus speed (slot 0) = 12500000Hz (slot req 400000Hz, actual 390625HZ div = 16)
+<4>[ 1:  371.101619] I/KERNEL       (K 553): mmc1: R4_18V_PRESENT
+<4>[ 1:  371.101948] I/KERNEL       (K 553): mmc1: cannot verify signal voltage switch
+<6>[ 1:  371.114140] I/KERNEL       (K 553): mmc_host mmc1: current voltage : 1.8v
+<4>[ 1:  371.140772] I/KERNEL       (K 553): mmc1: queuing unknown CIS tuple 0x80 (2 bytes)
+<4>[ 1:  371.143516] I/KERNEL       (K 553): mmc1: queuing unknown CIS tuple 0x80 (7 bytes)
+<4>[ 1:  371.150807] I/KERNEL       (K 553): mmc1: queuing unknown CIS tuple 0x80 (3 bytes)
+<4>[ 1:  371.152777] I/KERNEL       (K 553): mmc1: queuing unknown CIS tuple 0x80 (3 bytes)
+<6>[ 1:  371.218733] I/KERNEL       (K 553): mmc_host mmc1: Bus speed (slot 0) = 200000000Hz (slot req 400000Hz, actual 400000HZ div = 250)
+<6>[ 1:  371.218762] I/KERNEL       (K 553): mmc_host mmc1: Bus speed (slot 0) = 200000000Hz (slot req 200000000Hz, actual 200000000HZ div = 0)
+<6>[ 1:  371.218780] I/KERNEL       (K 553): dw_mmc_sdio dw_mmc_sdio.0: sdio tuning: PHASE_SHIFT_180
+<4>[ 1:  371.222299] I/KERNEL       (K 553): F1 signature OK, socitype:0x1 chip:0x4354 rev:0x1 pkg:0x0
+<4>[ 1:  371.222744] I/KERNEL       (K 553): DHD: dongle ram size is set to 786432(orig 786432) at 0x180000
+<4>[ 1:  371.222944] I/KERNEL       (K 553): dhdsdio_download_firmware: firmware path=/lib/firmware/wlan_net_bcm4354.bin, nvram path=/opt/etc/nvram/nvram_net_bcm4354.txt
+<4>[ 1:  371.293608] I/KERNEL       (K 553): dhdsdio_write_vars: Download, Upload and compare of NVRAM succeeded.
+<4>[ 1:  371.342462] I/KERNEL       (K 553): dhd_bus_init: enable 0x06, ready 0x06 (waited 0us)
+<4>[ 1:  371.343136] I/KERNEL       (K  47): dhdsdio_readshared: address (0x00000000) of sdpcm_shared invalid
+<4>[ 1:  371.343462] I/KERNEL       (K  47): dhdsdio_readshared: address (0x00000000) of sdpcm_shared invalid
+<4>[ 1:  371.343636] I/KERNEL       (K 553): dhd_wl_ioctl: WLC_GET_VAR: cisdump, ret = -23
+<4>[ 1:  371.343648] I/KERNEL       (K 553): [WIFI_SEC] dhd_check_module_cid: CIS reading failed, ret=-23
+<4>[ 1:  371.345905] I/KERNEL       (K 553): Firmware up: op_mode=0x0005, MAC=a4:ef:1e
+<4>[ 1:  371.346199] I/KERNEL       (K 553): [WIFI_SEC] sec_get_param_wfa_cert: File [/data/.roamoff.info] doesn't exist 
+<4>[ 1:  371.349572] I/KERNEL       (K 553): dhdcdc_set_ioctl: SET PM to 2
+<4>[ 1:  371.349755] I/KERNEL       (K 553): [WIFI_SEC] sec_control_pm: /data/.psm.info open failed, so set PM to 2
+<4>[ 1:  371.350186] I/KERNEL       (K 553): [WIFI_SEC] sec_get_param_wfa_cert: File [/data/.bustxglom.info] doesn't exist 
+<4>[ 1:  371.350956] I/KERNEL       (K 553): [WIFI_SEC] dhd_sel_ant_from_file: File [/opt/etc/.ant.info] open error
+<4>[ 1:  371.352078] I/KERNEL       (K 553): [WIFI_SEC] sec_get_param_wfa_cert: File [/data/.frameburst.info] doesn't exist 
+<4>[ 1:  371.352994] I/KERNEL       (K 553): dhd_wl_ioctl: WLC_SET_VAR: aibss_bcn_force_config, ret = -23
+<4>[ 1:  371.353008] I/KERNEL       (K 553): dhd_preinit_ioctls Set aibss_bcn_force_config to 500, 5000, 5000 returned (-23)
+<4>[ 1:  371.353878] I/KERNEL       (K 553): dhd_wl_ioctl: WLC_SET_VAR: pspretend_threshold, ret = -23
+<4>[ 1:  371.353888] I/KERNEL       (K 553): dhd_preinit_ioctls pspretend_threshold for HostAPD returned (-23)
+<4>[ 1:  371.358192] I/KERNEL       (K 553): Firmware version = wl0: May 12 2016 21:45:51 version 7.26.19.1 (A1 Station/P2P) FWID 01-2d8f95a2
+<4>[ 1:  371.358302] I/KERNEL       (K 553): [WIFI_SEC] .wifiver.info already saved.
+<4>[ 1:  371.363701] I/KERNEL       (K 553): [WIFI_SEC] sec_get_param_wfa_cert: File [/data/.proptx.info] doesn't exist 
+<4>[ 1:  371.364249] I/KERNEL       (K 553): dhd_wlfc_hostreorder_init(): successful bdcv2 tlv signaling, 64
+<4>[ 1:  371.364767] I/KERNEL       (K 553): dhd_wl_ioctl: WLC_GET_VAR: pfnlbest, ret = -14
+<4>[ 1:  371.365953] I/KERNEL       (K 553): [WIFI_SEC] dhd_write_macaddr : no efs filepath
+<6>[ 1:  371.365955] I/KERNEL       (K 553): CFG80211-INFO2) wl_cfg80211_attach_post : p2p0: p2p_dev_addr=a6:ef:1e
+<4>[ 1:  371.419576] I/KERNEL       (K 553): wl_create_event_handler(): thread:wl_event_handler:22a started
+<4>[ 1:  371.419624] I/KERNEL       (K 553): /data/.cid.info file open error
+<6>[ 1:  371.419721] I/KERNEL       (K 554): CFG80211-INFO2) wl_event_handler : tsk Enter, tsk = 0xc145d520
+<6>[ 1:  371.471631] I/KERNEL       (K 378): WLDEV-INFO) wldev_set_country: set country for SG as SG rev 0
+<4>[ 1:  371.574428] I/KERNEL       (K  47): WLC_E_IF: NO_IF set, event Ignored
+<4>[ 1:  371.776049] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  372.177876] I/KERNEL       (K 554): dhd_wl_ioctl: WLC_IOCTL: cmd: 23, ret = -17
+<6>[ 1:  372.177904] I/KERNEL       (K 554): CFG80211-INFO2) wl_notify_rx_mgmt_frame : WLC_GET_BSSID error -17
+<7>[ 1:  372.177923] I/KERNEL       (K 554): CFGP2P-ACTION) wl_cfgp2p_print_actframe :RX P2P Provision Discovery Request Frame, channel=1
+<7>[ 1:  372.189429] I/KERNEL       (K 558): CFGP2P-ACTION) wl_cfgp2p_print_actframe :TX P2P Provision Discovery Response Frame, channel=1
+<4>[ 1:  372.303600] I/KERNEL       (K 554): dhd_wl_ioctl: WLC_IOCTL: cmd: 23, ret = -17
+<6>[ 1:  372.303628] I/KERNEL       (K 554): CFG80211-INFO2) wl_notify_rx_mgmt_frame : WLC_GET_BSSID error -17
+<7>[ 1:  372.303646] I/KERNEL       (K 554): CFGP2P-ACTION) wl_cfgp2p_print_actframe :RX P2P Group Owner Negotiation Req Frame, channel=1
+<7>[ 1:  372.313624] I/KERNEL       (K 558): CFGP2P-ACTION) wl_cfgp2p_print_actframe :TX P2P Group Owner Negotiation Rsp Frame, channel=1
+<7>[ 1:  372.313834] I/KERNEL       (K 558): CFGP2P-ACTION) wl_cfgp2p_need_wait_actfrmae :Check TX P2P Group Owner Negotiation Rsp Frame status
+<7>[ 1:  372.349589] I/KERNEL       (K 558): CFGP2P-ACTION) wl_cfgp2p_print_actframe :TX P2P Group Owner Negotiation Rsp Frame, channel=1
+<7>[ 1:  372.349601] I/KERNEL       (K 558): CFGP2P-ACTION) wl_cfgp2p_need_wait_actfrmae :Check TX P2P Group Owner Negotiation Rsp Frame status
+<4>[ 1:  372.355595] I/KERNEL       (K 558): dhd_wlfc_init(): successfully enabled bdcv2 tlv signaling, 79
+<4>[ 1:  372.355854] I/KERNEL       (K 558): dhd_wlfc_init: query wlfc_mode succeed, fw_caps=0x1c
+<4>[ 1:  372.356097] I/KERNEL       (K 558): dhd_wlfc_init(): wlfc_mode=0x1c, ret=0
+<4>[ 1:  372.356123] I/KERNEL       (K 558): dhdsdio_func_blocksize: F2 Block size set from 512 to 128
+<4>[ 1:  372.357252] I/KERNEL       (K 558): dhd_wl_ioctl: WLC_IOCTL: cmd: 23, ret = -17
+<4>[ 1:  372.371192] I/KERNEL       (K 558): Register interface [p2p-wlan0-0]  MAC: a4:ef:1e
+<4>[ 1:  372.371192] I/KERNEL       (K 558): 
+<6>[ 1:  372.373048] I/KERNEL       (K 558): CFG80211-INFO2) wl_cfg80211_add_virtual_iface :  virtual interface(p2p-wlan0-0) is created net attach done
+<6>[ 1:  372.373059] I/KERNEL       (K 558): CFG80211-INFO2) dhd_cfg80211_set_p2p_info : Set : op_mode=0x0025
+<7>[ 1:  372.381976] I/KERNEL       (K 558): CFGP2P-ACTION) wl_cfgp2p_print_actframe :TX P2P Group Owner Negotiation Req Frame, channel=1
+<4>[ 1:  372.424562] I/KERNEL       (K 554): dhd_wl_ioctl: WLC_IOCTL: cmd: 23, ret = -17
+<6>[ 1:  372.424591] I/KERNEL       (K 554): CFG80211-INFO2) wl_notify_rx_mgmt_frame : WLC_GET_BSSID error -17
+<7>[ 1:  372.428685] I/KERNEL       (K 554): CFGP2P-ACTION) wl_cfgp2p_print_actframe :RX P2P Group Owner Negotiation Rsp Frame, channel=1
+<7>[ 1:  372.436812] I/KERNEL       (K 558): CFGP2P-ACTION) wl_cfgp2p_print_actframe :TX P2P Group Owner Negotiation Confirm Frame, channel=1
+<6>[ 1:  372.759879] I/KERNEL       (K 558): CFG80211-TRACE) __wl_cfg80211_scan : START SCAN
+<4>[ 1:  372.778459] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<6>[ 1:  372.798999] I/KERNEL       (K 554): CFG80211-INFO2) wl_escan_handler : P2P assoc scan fast aborted.
+<6>[ 1:  372.802318] I/KERNEL       (K 554): CFG80211-INFO2) wl_escan_handler : escan is not ready ndev c410e000 drv_status 0x0 e_type 69 e_states 4
+<4>[ 1:  372.808729] I/KERNEL       (K 558): wl_android_priv_cmd: bytes_written = 248
+<4>[ 1:  372.814799] I/KERNEL       (K 558): dhd_wl_ioctl: WLC_IOCTL: cmd: 23, ret = -17
+<6>[ 1:  372.818423] I/KERNEL       (K 558): CFG80211-INFO2) wl_cfg80211_connect : Connectting withae:77:f3 channel (149) ssid "DIRECT-z6-Samsung Galaxy S7", len (27)
+<6>[ 1:  372.818423] I/KERNEL       (K 558): 
+<4>[ 1:  372.865650] I/KERNEL       (K 554): wl_bss_connect_done succeeded with ae:77:f3
+<4>[ 1:  372.867328] I/KERNEL       (K 554): dhdcdc_set_ioctl: SET PM to 0
+<6>[ 1:  372.867916] I/KERNEL       (K   9): cfg80211: Calling CRDA for country: NZ
+<6>[ 1:  372.873445] I/KERNEL       (K   9): cfg80211: Regulatory domain changed to country: NZ
+<6>[ 1:  372.873470] I/KERNEL       (K   9): cfg80211:   (start_freq - end_freq @ bandwidth), (max_antenna_gain, max_eirp)
+<6>[ 1:  372.873481] I/KERNEL       (K   9): cfg80211:   (2402000 KHz - 2482000 KHz @ 40000 KHz), (3000 mBi, 0 mBm)
+<6>[ 1:  372.873490] I/KERNEL       (K   9): cfg80211:   (5170000 KHz - 5250000 KHz @ 80000 KHz), (1700 mBi, 0 mBm)
+<6>[ 1:  372.873498] I/KERNEL       (K   9): cfg80211:   (5250000 KHz - 5330000 KHz @ 80000 KHz), (2400 mBi, 0 mBm)
+<6>[ 1:  372.873506] I/KERNEL       (K   9): cfg80211:   (5735000 KHz - 5835000 KHz @ 80000 KHz), (3000 mBi, 0 mBm)
+<4>[ 1:  372.881075] I/KERNEL       (K  47): ETHER_TYPE_802_1X [RX] : M1 of 4way
+<4>[ 1:  372.891816] I/KERNEL       (K 558): ETHER_TYPE_802_1X [TX] : M2 of 4way
+<4>[ 1:  372.898791] I/KERNEL       (K  47): ETHER_TYPE_802_1X [RX] : M3 of 4way
+<4>[ 1:  372.902994] I/KERNEL       (K 558): ETHER_TYPE_802_1X [TX] : M4 of 4way
+<4>[ 1:  372.963780] I/KERNEL       (K 554): wl_bss_connect_done succeeded with ae:77:f3
+<4>[ 1:  373.781681] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  374.783932] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  375.804810] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  376.792792] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  377.794054] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<6>[ 1:  377.901982] I/KERNEL       (K  29): sm5703-fuelgauge 4-0071: fg_vbatocv_check: mode change to mix RS auto mode
+<6>[ 1:  377.905186] I/KERNEL       (K  29): sm5703-fuelgauge 4-0071: sm5703_get_soc: temp_fg = 177 , batt_temp = 330, volt_cal = 0x809e, curr_cal = 0x8085, high_temp_cal_fact = 0, low_temp_cal_fact = 0 soc = 797
+<6>[ 1:  377.905524] I/KERNEL       (K  29): sec-battery sec-battery.0: sec_bat_get_battery_info:Vnow(3898mV),Inow(-910mA),Imax(1000mA),SOC(79%),Tbat(330),is_hc_usb(0)
+<6>[ 1:  377.905543] I/KERNEL       (K  29): sec-battery sec-battery.0: Connected,Vavg(3915mV),Vocv(4117mV),Tamb(330),Iavg(-797mA),Iadc(0)
+<6>[ 1:  377.907733] I/KERNEL       (K  29): sec_bat_swelling_check: status(2), swell_mode(0:0), cv(0x1126), temp(330)
+<6>[ 1:  377.907750] I/KERNEL       (K  29): sec_bat_swelling_check: DISCHARGING or NOT-CHARGING. stop swelling mode
+<6>[ 1:  377.907774] I/KERNEL       (K  29): sec-battery sec-battery.0: sec_bat_monitor_work: Status(Discharging), Mode(None), Health(Good), Cable(1), Vendor((null)), level(100%)
+<4>[ 1:  378.795861] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  379.781454] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  380.785366] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  381.787059] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  382.789386] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  382.894637] I/KERNEL       (K 534): dhdcdc_set_ioctl: SET PM to 2
+<4>[ 1:  383.787115] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  384.773986] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  385.774721] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  386.781744] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  387.778377] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  387.903227] I/KERNEL       (K 443): [sound/soc/codecs/wm8994.c, fn:check_clk_sys, 263]
+<4>[ 1:  387.903500] I/KERNEL       (K  29): [sound/soc/codecs/wm8994.c, fn:wm8994_set_bias_level, 2352]
+<6>[ 1:  387.941861] I/KERNEL       (K 213): sm5703-fuelgauge 4-0071: fg_vbatocv_check: mode change to mix RS auto mode
+<6>[ 1:  387.946012] I/KERNEL       (K 213): sm5703-fuelgauge 4-0071: sm5703_get_soc: temp_fg = 177 , batt_temp = 340, volt_cal = 0x809e, curr_cal = 0x8085, high_temp_cal_fact = 0, low_temp_cal_fact = 0 soc = 795
+<6>[ 1:  387.946047] I/KERNEL       (K 213): sec-battery sec-battery.0: sec_bat_get_battery_info:Vnow(3875mV),Inow(-933mA),Imax(1000mA),SOC(79%),Tbat(340),is_hc_usb(0)
+<6>[ 1:  387.946066] I/KERNEL       (K 213): sec-battery sec-battery.0: Connected,Vavg(3893mV),Vocv(4113mV),Tamb(340),Iavg(-890mA),Iadc(0)
+<6>[ 1:  387.948380] I/KERNEL       (K 213): sec_bat_swelling_check: status(2), swell_mode(0:0), cv(0x1126), temp(340)
+<6>[ 1:  387.948390] I/KERNEL       (K 213): sec_bat_swelling_check: DISCHARGING or NOT-CHARGING. stop swelling mode
+<6>[ 1:  387.948410] I/KERNEL       (K 213): sec-battery sec-battery.0: sec_bat_monitor_work: Status(Discharging), Mode(None), Health(Good), Cable(1), Vendor((null)), level(100%)
+<4>[ 1:  388.065242] I/KERNEL       (K 213): [sound/soc/codecs/wm8994.c, fn:wm8994_set_bias_level, 2352]
+<4>[ 1:  388.150854] I/KERNEL       (K 265): d5_pmu_ip_power_on_off: started[19 = 0]
+<4>[ 1:  388.150984] I/KERNEL       (K 265): d5_pmu_ip_power_on_off: started[18 = 0]
+<4>[ 1:  388.162450] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<6>[ 1:  388.176076] I/KERNEL       (K  36): dw_mmc_emmc dw_mmc_emmc.0: change emmc clock 200MHz
+<4>[ 1:  388.177201] I/KERNEL       (K 255): [sound/soc/codecs/wm8994.c, fn:wm8994_set_dai_fmt, 2491]
+<7>[ 1:  388.177247] I/KERNEL       (K 255): [sound/soc/drime/drime4-wm8994.c, fn:d4_wm8994_hifi_hw_params, 361] pll_out[12288000]
+<4>[ 1:  388.177257] I/KERNEL       (K 255): [sound/soc/codecs/wm8994.c, fn:wm8994_set_dai_sysclk, 2281]
+<4>[ 1:  388.177265] I/KERNEL       (K 255): [sound/soc/codecs/wm8994.c, fn:configure_clock, 225]
+<4>[ 1:  388.177272] I/KERNEL       (K 255): [sound/soc/codecs/wm8994.c, fn:configure_aif_clock, 173]
+<4>[ 1:  388.177281] I/KERNEL       (K 255): [sound/soc/codecs/wm8994.c, fn:configure_aif_clock, 173]
+<4>[ 1:  388.177291] I/KERNEL       (K 255): [sound/soc/codecs/wm8994.c, fn:wm8994_hw_params, 2641]
+<4>[ 1:  388.177792] I/KERNEL       (K 571): [sound/soc/codecs/wm8994.c, fn:wm8994_set_bias_level, 2352]
+<4>[ 1:  388.235910] I/KERNEL       (K 571): [sound/soc/codecs/wm8994.c, fn:wm8994_set_bias_level, 2352]
+<4>[ 1:  388.236249] I/KERNEL       (K 255): [sound/soc/codecs/wm8994.c, fn:wm8994_aif_mute, 2851]
+<4>[ 1:  388.456358] I/KERNEL       (K 255): [sound/soc/codecs/wm8994.c, fn:wm8994_aif_mute, 2851]
+<4>[ 1:  388.457732] I/KERNEL       (K 255): display send message 11 2
+<4>[ 1:  388.586350] I/KERNEL       (K 572): d5_pmu_ip_power_on_off: started[19 = 1]
+<4>[ 1:  388.586535] I/KERNEL       (K 572): d5_pmu_ip_power_on_off: started[18 = 1]
+<6>[ 1:  388.661455] I/KERNEL       (K 572): HEVC QOS Bridge Backup 0xfa12f138 [0x0].
+<6>[ 1:  388.661478] I/KERNEL       (K 572): HEVC QOS Bridge Change 0xfa12f138 [0x14a].
+<4>[ 1:  388.662563] I/KERNEL       (K 572): d5_hevc_set_clock to 259200000
+<6>[ 1:  388.712501] I/KERNEL       (K 572): HEVC QOS Bridge Backup 0xfa12f138 [0x14a].
+<6>[ 1:  388.712525] I/KERNEL       (K 572): HEVC QOS Bridge Change 0xfa12f138 [0x0].
+<4>[ 1:  388.712590] I/KERNEL       (K 572): d5_hevc_set_clock to 133333333
+<4>[ 1:  388.713714] I/KERNEL       (K 572): d5_pmu_ip_power_on_off: started[19 = 0]
+<4>[ 1:  388.713826] I/KERNEL       (K 572): d5_pmu_ip_power_on_off: started[18 = 0]
+<4>[ 1:  388.924855] I/KERNEL       (K 265): d5_pmu_ip_power_on_off: started[19 = 1]
+<4>[ 1:  388.925094] I/KERNEL       (K 265): d5_pmu_ip_power_on_off: started[18 = 1]
+<4>[ 1:  389.241762] I/KERNEL       (K 574): d5_hevc_set_clock to 133333333
+<4>[ 1:  389.241807] I/KERNEL       (K 574): CurStrm  = bd27c000
+<4>[ 1:  389.241817] I/KERNEL       (K 574): RefMVBuf = a6a00000
+<4>[ 1:  389.241824] I/KERNEL       (K 574): CurFrmY  = 0
+<4>[ 1:  389.241833] I/KERNEL       (K 574): SRC] resolution: 2560x1280@30fps
+<4>[ 1:  389.241842] I/KERNEL       (K 574): ENC] EncMode: 1, IPeriod: 15
+<4>[ 1:  389.241850] I/KERNEL       (K 574): STR] Bit-rate: 22000kbps
+<4>[ 1:  389.454924] I/KERNEL       (K 534): [sound/soc/codecs/wm8994.c, fn:check_clk_sys, 263]
+<4>[ 1:  389.455259] I/KERNEL       (K 571): [sound/soc/codecs/wm8994.c, fn:wm8994_set_bias_level, 2352]
+<4>[ 1:  389.615631] I/KERNEL       (K 571): [sound/soc/codecs/wm8994.c, fn:wm8994_set_bias_level, 2352]
+<6>[ 1:  397.981431] I/KERNEL       (K 571): sm5703-fuelgauge 4-0071: fg_vbatocv_check: mode change to mix RS auto mode
+<6>[ 1:  397.983374] I/KERNEL       (K 571): sm5703-fuelgauge 4-0071: sm5703_get_soc: temp_fg = 177 , batt_temp = 340, volt_cal = 0x809e, curr_cal = 0x8085, high_temp_cal_fact = 0, low_temp_cal_fact = 0 soc = 794
+<6>[ 1:  397.983419] I/KERNEL       (K 571): sec-battery sec-battery.0: sec_bat_get_battery_info:Vnow(3898mV),Inow(-722mA),Imax(1000mA),SOC(79%),Tbat(340),is_hc_usb(0)
+<6>[ 1:  397.983447] I/KERNEL       (K 571): sec-battery sec-battery.0: Connected,Vavg(3887mV),Vocv(4113mV),Tamb(340),Iavg(-842mA),Iadc(0)
+<6>[ 1:  397.984036] I/KERNEL       (K 571): sec_bat_swelling_check: status(2), swell_mode(0:0), cv(0x1126), temp(340)
+<6>[ 1:  397.984052] I/KERNEL       (K 571): sec_bat_swelling_check: DISCHARGING or NOT-CHARGING. stop swelling mode
+<6>[ 1:  397.984078] I/KERNEL       (K 571): sec-battery sec-battery.0: sec_bat_monitor_work: Status(Discharging), Mode(None), Health(Good), Cable(1), Vendor((null)), level(100%)
+<6>[ 1:  408.001173] I/KERNEL       (K 571): sm5703-fuelgauge 4-0071: fg_vbatocv_check: mode change to mix RS auto mode
+<6>[ 1:  408.003075] I/KERNEL       (K 571): sm5703-fuelgauge 4-0071: sm5703_get_soc: temp_fg = 177 , batt_temp = 340, volt_cal = 0x809e, curr_cal = 0x8085, high_temp_cal_fact = 0, low_temp_cal_fact = 0 soc = 792
+<6>[ 1:  408.003106] I/KERNEL       (K 571): sec-battery sec-battery.0: sec_bat_get_battery_info:Vnow(3910mV),Inow(-707mA),Imax(1000mA),SOC(79%),Tbat(340),is_hc_usb(0)
+<6>[ 1:  408.003125] I/KERNEL       (K 571): sec-battery sec-battery.0: Connected,Vavg(3899mV),Vocv(4113mV),Tamb(340),Iavg(-746mA),Iadc(0)
+<6>[ 1:  408.003613] I/KERNEL       (K 571): sec_bat_swelling_check: status(2), swell_mode(0:0), cv(0x1126), temp(340)
+<6>[ 1:  408.003625] I/KERNEL       (K 571): sec_bat_swelling_check: DISCHARGING or NOT-CHARGING. stop swelling mode
+<6>[ 1:  408.003649] I/KERNEL       (K 571): sec-battery sec-battery.0: sec_bat_monitor_work: Status(Discharging), Mode(None), Health(Good), Cable(1), Vendor((null)), level(100%)
+<6>[ 1:  418.021472] I/KERNEL       (K 571): sm5703-fuelgauge 4-0071: fg_vbatocv_check: mode change to mix RS auto mode
+<6>[ 1:  418.023341] I/KERNEL       (K 571): sm5703-fuelgauge 4-0071: sm5703_get_soc: temp_fg = 177 , batt_temp = 340, volt_cal = 0x809e, curr_cal = 0x8085, high_temp_cal_fact = 0, low_temp_cal_fact = 0 soc = 791
+<6>[ 1:  418.023370] I/KERNEL       (K 571): sec-battery sec-battery.0: sec_bat_get_battery_info:Vnow(3914mV),Inow(-718mA),Imax(1000mA),SOC(79%),Tbat(340),is_hc_usb(0)
+<6>[ 1:  418.023390] I/KERNEL       (K 571): sec-battery sec-battery.0: Connected,Vavg(3908mV),Vocv(4109mV),Tamb(340),Iavg(-720mA),Iadc(0)
+<6>[ 1:  418.026946] I/KERNEL       (K 571): sec_bat_swelling_check: status(2), swell_mode(0:0), cv(0x1126), temp(340)
+<6>[ 1:  418.026965] I/KERNEL       (K 571): sec_bat_swelling_check: DISCHARGING or NOT-CHARGING. stop swelling mode
+<6>[ 1:  418.026995] I/KERNEL       (K 571): sec-battery sec-battery.0: sec_bat_monitor_work: Status(Discharging), Mode(None), Health(Good), Cable(1), Vendor((null)), level(100%)
+<6>[ 1:  428.060981] I/KERNEL       (K 571): sm5703-fuelgauge 4-0071: fg_vbatocv_check: mode change to mix RS auto mode
+<6>[ 1:  428.063304] I/KERNEL       (K 571): sm5703-fuelgauge 4-0071: sm5703_get_soc: temp_fg = 177 , batt_temp = 340, volt_cal = 0x809e, curr_cal = 0x8085, high_temp_cal_fact = 0, low_temp_cal_fact = 0 soc = 789
+<6>[ 1:  428.063334] I/KERNEL       (K 571): sec-battery sec-battery.0: sec_bat_get_battery_info:Vnow(3910mV),Inow(-765mA),Imax(1000mA),SOC(78%),Tbat(340),is_hc_usb(0)
+<6>[ 1:  428.063352] I/KERNEL       (K 571): sec-battery sec-battery.0: Connected,Vavg(3911mV),Vocv(4109mV),Tamb(340),Iavg(-735mA),Iadc(0)
+<6>[ 1:  428.063841] I/KERNEL       (K 571): sec_bat_swelling_check: status(2), swell_mode(0:0), cv(0x1126), temp(340)
+<6>[ 1:  428.063852] I/KERNEL       (K 571): sec_bat_swelling_check: DISCHARGING or NOT-CHARGING. stop swelling mode
+<6>[ 1:  428.063876] I/KERNEL       (K 571): sec-battery sec-battery.0: sec_bat_monitor_work: Status(Discharging), Mode(None), Health(Good), Cable(1), Vendor((null)), level(100%)
+<4>[ 1:  432.976789] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<3>[ 1:  432.976848] I/KERNEL       (K 255): d4-i2c drime5-i2c.2: i2c_drime5_irq_nextbyte: called in STATE_STOP
+<4>[ 1:  432.998331] I/KERNEL       (K 270): [sound/soc/codecs/wm8994.c, fn:wm8994_set_dai_fmt, 2491]
+<7>[ 1:  432.998394] I/KERNEL       (K 270): [sound/soc/drime/drime4-wm8994.c, fn:d4_wm8994_hifi_hw_params, 361] pll_out[12288000]
+<4>[ 1:  432.998408] I/KERNEL       (K 270): [sound/soc/codecs/wm8994.c, fn:wm8994_set_dai_sysclk, 2281]
+<4>[ 1:  432.998419] I/KERNEL       (K 270): [sound/soc/codecs/wm8994.c, fn:configure_clock, 225]
+<4>[ 1:  432.998428] I/KERNEL       (K 270): [sound/soc/codecs/wm8994.c, fn:configure_aif_clock, 173]
+<4>[ 1:  432.998441] I/KERNEL       (K 270): [sound/soc/codecs/wm8994.c, fn:configure_aif_clock, 173]
+<4>[ 1:  432.998454] I/KERNEL       (K 270): [sound/soc/codecs/wm8994.c, fn:wm8994_hw_params, 2641]
+<4>[ 1:  433.002346] I/KERNEL       (K 571): [sound/soc/codecs/wm8994.c, fn:wm8994_set_bias_level, 2352]
+<4>[ 1:  433.055626] I/KERNEL       (K 571): [sound/soc/codecs/wm8994.c, fn:wm8994_set_bias_level, 2352]
+<4>[ 1:  433.056440] I/KERNEL       (K 270): [sound/soc/codecs/wm8994.c, fn:wm8994_aif_mute, 2851]
+<4>[ 1:  433.171871] I/KERNEL       (K 270): [sound/soc/codecs/wm8994.c, fn:wm8994_aif_mute, 2851]
+<4>[ 1:  434.009775] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  434.030529] I/KERNEL       (K 270): [sound/soc/codecs/wm8994.c, fn:wm8994_set_dai_fmt, 2491]
+<7>[ 1:  434.030590] I/KERNEL       (K 270): [sound/soc/drime/drime4-wm8994.c, fn:d4_wm8994_hifi_hw_params, 361] pll_out[12288000]
+<4>[ 1:  434.030603] I/KERNEL       (K 270): [sound/soc/codecs/wm8994.c, fn:wm8994_set_dai_sysclk, 2281]
+<4>[ 1:  434.030614] I/KERNEL       (K 270): [sound/soc/codecs/wm8994.c, fn:configure_clock, 225]
+<4>[ 1:  434.030623] I/KERNEL       (K 270): [sound/soc/codecs/wm8994.c, fn:configure_aif_clock, 173]
+<4>[ 1:  434.030636] I/KERNEL       (K 270): [sound/soc/codecs/wm8994.c, fn:configure_aif_clock, 173]
+<4>[ 1:  434.030649] I/KERNEL       (K 270): [sound/soc/codecs/wm8994.c, fn:wm8994_hw_params, 2641]
+<4>[ 1:  434.031413] I/KERNEL       (K 270): [sound/soc/codecs/wm8994.c, fn:wm8994_aif_mute, 2851]
+<4>[ 1:  434.147908] I/KERNEL       (K 270): [sound/soc/codecs/wm8994.c, fn:wm8994_aif_mute, 2851]
+<4>[ 1:  435.009128] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  435.029622] I/KERNEL       (K 270): [sound/soc/codecs/wm8994.c, fn:wm8994_set_dai_fmt, 2491]
+<7>[ 1:  435.029683] I/KERNEL       (K 270): [sound/soc/drime/drime4-wm8994.c, fn:d4_wm8994_hifi_hw_params, 361] pll_out[12288000]
+<4>[ 1:  435.029696] I/KERNEL       (K 270): [sound/soc/codecs/wm8994.c, fn:wm8994_set_dai_sysclk, 2281]
+<4>[ 1:  435.029706] I/KERNEL       (K 270): [sound/soc/codecs/wm8994.c, fn:configure_clock, 225]
+<4>[ 1:  435.029716] I/KERNEL       (K 270): [sound/soc/codecs/wm8994.c, fn:configure_aif_clock, 173]
+<4>[ 1:  435.029728] I/KERNEL       (K 270): [sound/soc/codecs/wm8994.c, fn:configure_aif_clock, 173]
+<4>[ 1:  435.029740] I/KERNEL       (K 270): [sound/soc/codecs/wm8994.c, fn:wm8994_hw_params, 2641]
+<4>[ 1:  435.030395] I/KERNEL       (K 270): [sound/soc/codecs/wm8994.c, fn:wm8994_aif_mute, 2851]
+<4>[ 1:  435.146005] I/KERNEL       (K 270): [sound/soc/codecs/wm8994.c, fn:wm8994_aif_mute, 2851]
+<4>[ 1:  436.007716] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  436.030387] I/KERNEL       (K 270): [sound/soc/codecs/wm8994.c, fn:wm8994_set_dai_fmt, 2491]
+<7>[ 1:  436.030448] I/KERNEL       (K 270): [sound/soc/drime/drime4-wm8994.c, fn:d4_wm8994_hifi_hw_params, 361] pll_out[12288000]
+<4>[ 1:  436.030462] I/KERNEL       (K 270): [sound/soc/codecs/wm8994.c, fn:wm8994_set_dai_sysclk, 2281]
+<4>[ 1:  436.030472] I/KERNEL       (K 270): [sound/soc/codecs/wm8994.c, fn:configure_clock, 225]
+<4>[ 1:  436.030482] I/KERNEL       (K 270): [sound/soc/codecs/wm8994.c, fn:configure_aif_clock, 173]
+<4>[ 1:  436.030494] I/KERNEL       (K 270): [sound/soc/codecs/wm8994.c, fn:configure_aif_clock, 173]
+<4>[ 1:  436.030507] I/KERNEL       (K 270): [sound/soc/codecs/wm8994.c, fn:wm8994_hw_params, 2641]
+<4>[ 1:  436.030861] I/KERNEL       (K 270): [sound/soc/codecs/wm8994.c, fn:wm8994_aif_mute, 2851]
+<4>[ 1:  436.146789] I/KERNEL       (K 270): [sound/soc/codecs/wm8994.c, fn:wm8994_aif_mute, 2851]
+<4>[ 1:  437.008028] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  437.030246] I/KERNEL       (K 270): [sound/soc/codecs/wm8994.c, fn:wm8994_set_dai_fmt, 2491]
+<7>[ 1:  437.030309] I/KERNEL       (K 270): [sound/soc/drime/drime4-wm8994.c, fn:d4_wm8994_hifi_hw_params, 361] pll_out[12288000]
+<4>[ 1:  437.030322] I/KERNEL       (K 270): [sound/soc/codecs/wm8994.c, fn:wm8994_set_dai_sysclk, 2281]
+<4>[ 1:  437.030333] I/KERNEL       (K 270): [sound/soc/codecs/wm8994.c, fn:configure_clock, 225]
+<4>[ 1:  437.030341] I/KERNEL       (K 270): [sound/soc/codecs/wm8994.c, fn:configure_aif_clock, 173]
+<4>[ 1:  437.030353] I/KERNEL       (K 270): [sound/soc/codecs/wm8994.c, fn:configure_aif_clock, 173]
+<4>[ 1:  437.030366] I/KERNEL       (K 270): [sound/soc/codecs/wm8994.c, fn:wm8994_hw_params, 2641]
+<4>[ 1:  437.031136] I/KERNEL       (K 270): [sound/soc/codecs/wm8994.c, fn:wm8994_aif_mute, 2851]
+<4>[ 1:  437.146436] I/KERNEL       (K 270): [sound/soc/codecs/wm8994.c, fn:wm8994_aif_mute, 2851]
+<4>[ 1:  438.008222] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  438.030890] I/KERNEL       (K 270): [sound/soc/codecs/wm8994.c, fn:wm8994_set_dai_fmt, 2491]
+<7>[ 1:  438.030951] I/KERNEL       (K 270): [sound/soc/drime/drime4-wm8994.c, fn:d4_wm8994_hifi_hw_params, 361] pll_out[12288000]
+<4>[ 1:  438.030965] I/KERNEL       (K 270): [sound/soc/codecs/wm8994.c, fn:wm8994_set_dai_sysclk, 2281]
+<4>[ 1:  438.030976] I/KERNEL       (K 270): [sound/soc/codecs/wm8994.c, fn:configure_clock, 225]
+<4>[ 1:  438.030985] I/KERNEL       (K 270): [sound/soc/codecs/wm8994.c, fn:configure_aif_clock, 173]
+<4>[ 1:  438.030996] I/KERNEL       (K 270): [sound/soc/codecs/wm8994.c, fn:configure_aif_clock, 173]
+<4>[ 1:  438.031010] I/KERNEL       (K 270): [sound/soc/codecs/wm8994.c, fn:wm8994_hw_params, 2641]
+<4>[ 1:  438.032115] I/KERNEL       (K 270): [sound/soc/codecs/wm8994.c, fn:wm8994_aif_mute, 2851]
+<6>[ 1:  438.081863] I/KERNEL       (K 571): sm5703-fuelgauge 4-0071: fg_vbatocv_check: mode change to mix RS auto mode
+<6>[ 1:  438.083915] I/KERNEL       (K 571): sm5703-fuelgauge 4-0071: sm5703_get_soc: temp_fg = 177 , batt_temp = 340, volt_cal = 0x809e, curr_cal = 0x8085, high_temp_cal_fact = 0, low_temp_cal_fact = 0 soc = 788
+<6>[ 1:  438.083963] I/KERNEL       (K 571): sec-battery sec-battery.0: sec_bat_get_battery_info:Vnow(3906mV),Inow(-902mA),Imax(1000mA),SOC(78%),Tbat(340),is_hc_usb(0)
+<6>[ 1:  438.083982] I/KERNEL       (K 571): sec-battery sec-battery.0: Connected,Vavg(3908mV),Vocv(4105mV),Tamb(340),Iavg(-808mA),Iadc(0)
+<6>[ 1:  438.084519] I/KERNEL       (K 571): sec_bat_swelling_check: status(2), swell_mode(0:0), cv(0x1126), temp(340)
+<6>[ 1:  438.084606] I/KERNEL       (K 571): sec_bat_swelling_check: DISCHARGING or NOT-CHARGING. stop swelling mode
+<6>[ 1:  438.084638] I/KERNEL       (K 571): sec-battery sec-battery.0: sec_bat_monitor_work: Status(Discharging), Mode(None), Health(Good), Cable(1), Vendor((null)), level(100%)
+<4>[ 1:  438.147657] I/KERNEL       (K 270): [sound/soc/codecs/wm8994.c, fn:wm8994_aif_mute, 2851]
+<4>[ 1:  439.008013] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  439.027893] I/KERNEL       (K 270): [sound/soc/codecs/wm8994.c, fn:wm8994_set_dai_fmt, 2491]
+<7>[ 1:  439.027956] I/KERNEL       (K 270): [sound/soc/drime/drime4-wm8994.c, fn:d4_wm8994_hifi_hw_params, 361] pll_out[12288000]
+<4>[ 1:  439.027970] I/KERNEL       (K 270): [sound/soc/codecs/wm8994.c, fn:wm8994_set_dai_sysclk, 2281]
+<4>[ 1:  439.027981] I/KERNEL       (K 270): [sound/soc/codecs/wm8994.c, fn:configure_clock, 225]
+<4>[ 1:  439.027990] I/KERNEL       (K 270): [sound/soc/codecs/wm8994.c, fn:configure_aif_clock, 173]
+<4>[ 1:  439.028003] I/KERNEL       (K 270): [sound/soc/codecs/wm8994.c, fn:configure_aif_clock, 173]
+<4>[ 1:  439.028015] I/KERNEL       (K 270): [sound/soc/codecs/wm8994.c, fn:wm8994_hw_params, 2641]
+<4>[ 1:  439.029303] I/KERNEL       (K 270): [sound/soc/codecs/wm8994.c, fn:wm8994_aif_mute, 2851]
+<4>[ 1:  439.146357] I/KERNEL       (K 270): [sound/soc/codecs/wm8994.c, fn:wm8994_aif_mute, 2851]
+<4>[ 1:  440.008162] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  440.028379] I/KERNEL       (K 270): [sound/soc/codecs/wm8994.c, fn:wm8994_set_dai_fmt, 2491]
+<7>[ 1:  440.028441] I/KERNEL       (K 270): [sound/soc/drime/drime4-wm8994.c, fn:d4_wm8994_hifi_hw_params, 361] pll_out[12288000]
+<4>[ 1:  440.028454] I/KERNEL       (K 270): [sound/soc/codecs/wm8994.c, fn:wm8994_set_dai_sysclk, 2281]
+<4>[ 1:  440.028465] I/KERNEL       (K 270): [sound/soc/codecs/wm8994.c, fn:configure_clock, 225]
+<4>[ 1:  440.028474] I/KERNEL       (K 270): [sound/soc/codecs/wm8994.c, fn:configure_aif_clock, 173]
+<4>[ 1:  440.028486] I/KERNEL       (K 270): [sound/soc/codecs/wm8994.c, fn:configure_aif_clock, 173]
+<4>[ 1:  440.028499] I/KERNEL       (K 270): [sound/soc/codecs/wm8994.c, fn:wm8994_hw_params, 2641]
+<4>[ 1:  440.029672] I/KERNEL       (K 270): [sound/soc/codecs/wm8994.c, fn:wm8994_aif_mute, 2851]
+<4>[ 1:  440.148590] I/KERNEL       (K 270): [sound/soc/codecs/wm8994.c, fn:wm8994_aif_mute, 2851]
+<4>[ 1:  441.007196] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  441.028759] I/KERNEL       (K 270): [sound/soc/codecs/wm8994.c, fn:wm8994_set_dai_fmt, 2491]
+<7>[ 1:  441.028820] I/KERNEL       (K 270): [sound/soc/drime/drime4-wm8994.c, fn:d4_wm8994_hifi_hw_params, 361] pll_out[12288000]
+<4>[ 1:  441.028833] I/KERNEL       (K 270): [sound/soc/codecs/wm8994.c, fn:wm8994_set_dai_sysclk, 2281]
+<4>[ 1:  441.028845] I/KERNEL       (K 270): [sound/soc/codecs/wm8994.c, fn:configure_clock, 225]
+<4>[ 1:  441.028854] I/KERNEL       (K 270): [sound/soc/codecs/wm8994.c, fn:configure_aif_clock, 173]
+<4>[ 1:  441.028865] I/KERNEL       (K 270): [sound/soc/codecs/wm8994.c, fn:configure_aif_clock, 173]
+<4>[ 1:  441.028877] I/KERNEL       (K 270): [sound/soc/codecs/wm8994.c, fn:wm8994_hw_params, 2641]
+<4>[ 1:  441.029421] I/KERNEL       (K 270): [sound/soc/codecs/wm8994.c, fn:wm8994_aif_mute, 2851]
+<4>[ 1:  442.007740] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  443.007776] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  443.043836] I/KERNEL       (K 270): [sound/soc/codecs/wm8994.c, fn:wm8994_aif_mute, 2851]
+<4>[ 1:  443.449624] I/KERNEL       (K 574): d5_hevc_set_clock to 133333333
+<4>[ 1:  443.456989] I/KERNEL       (K 265): d5_pmu_ip_power_on_off: started[19 = 0]
+<4>[ 1:  443.457136] I/KERNEL       (K 265): d5_pmu_ip_power_on_off: started[18 = 0]
+<4>[ 1:  443.551498] I/KERNEL       (K 255): [sound/soc/codecs/wm8994.c, fn:wm8994_set_dai_fmt, 2491]
+<7>[ 1:  443.551547] I/KERNEL       (K 255): [sound/soc/drime/drime4-wm8994.c, fn:d4_wm8994_hifi_hw_params, 361] pll_out[12288000]
+<4>[ 1:  443.551558] I/KERNEL       (K 255): [sound/soc/codecs/wm8994.c, fn:wm8994_set_dai_sysclk, 2281]
+<4>[ 1:  443.551567] I/KERNEL       (K 255): [sound/soc/codecs/wm8994.c, fn:configure_clock, 225]
+<4>[ 1:  443.551574] I/KERNEL       (K 255): [sound/soc/codecs/wm8994.c, fn:configure_aif_clock, 173]
+<4>[ 1:  443.551583] I/KERNEL       (K 255): [sound/soc/codecs/wm8994.c, fn:configure_aif_clock, 173]
+<4>[ 1:  443.551592] I/KERNEL       (K 255): [sound/soc/codecs/wm8994.c, fn:wm8994_hw_params, 2641]
+<4>[ 1:  443.551883] I/KERNEL       (K 255): [sound/soc/codecs/wm8994.c, fn:wm8994_aif_mute, 2851]
+<4>[ 1:  443.750299] I/KERNEL       (K 255): [sound/soc/codecs/wm8994.c, fn:wm8994_aif_mute, 2851]
+<4>[ 1:  443.753588] I/KERNEL       (K 255): display send message 11 1
+<4>[ 1:  443.772918] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  443.845713] I/KERNEL       (K 265): d5_pmu_ip_power_on_off: started[19 = 1]
+<4>[ 1:  443.845899] I/KERNEL       (K 265): d5_pmu_ip_power_on_off: started[18 = 1]
+<4>[ 1:  443.923514] I/KERNEL       (K 583): [sound/soc/codecs/wm8994.c, fn:wm8994_set_dai_fmt, 2491]
+<7>[ 1:  443.923564] I/KERNEL       (K 583): [sound/soc/drime/drime4-wm8994.c, fn:d4_wm8994_hifi_hw_params, 361] pll_out[12288000]
+<4>[ 1:  443.923574] I/KERNEL       (K 583): [sound/soc/codecs/wm8994.c, fn:wm8994_set_dai_sysclk, 2281]
+<4>[ 1:  443.923582] I/KERNEL       (K 583): [sound/soc/codecs/wm8994.c, fn:configure_clock, 225]
+<4>[ 1:  443.923590] I/KERNEL       (K 583): [sound/soc/codecs/wm8994.c, fn:configure_aif_clock, 173]
+<4>[ 1:  443.923599] I/KERNEL       (K 583): [sound/soc/codecs/wm8994.c, fn:configure_aif_clock, 173]
+<4>[ 1:  443.923609] I/KERNEL       (K 583): [sound/soc/codecs/wm8994.c, fn:wm8994_hw_params, 2641]
+<4>[ 1:  443.925700] I/KERNEL       (K 583): [sound/soc/codecs/wm8994.c, fn:wm8994_aif_mute, 2851]
+<4>[ 1:  444.068903] I/KERNEL       (K 582): d5_hevc_set_clock to 259200000
+<4>[ 1:  444.068939] I/KERNEL       (K 582): CurStrm  = bd27c000
+<4>[ 1:  444.068948] I/KERNEL       (K 582): RefMVBuf = a6a00000
+<4>[ 1:  444.068954] I/KERNEL       (K 582): CurFrmY  = 0
+<4>[ 1:  444.068960] I/KERNEL       (K 582): SRC] resolution: 2560x1280@60fps
+<4>[ 1:  444.068967] I/KERNEL       (K 582): ENC] EncMode: 1, IPeriod: 30
+<4>[ 1:  444.068973] I/KERNEL       (K 582): STR] Bit-rate: 30000kbps
+<4>[ 1:  444.086770] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<3>[ 1:  444.086823] I/KERNEL       (K 255): d4-i2c drime5-i2c.2: i2c_drime5_irq_nextbyte: called in STATE_STOP
+<4>[ 1:  445.111632] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  446.079001] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  447.079231] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  448.082477] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<6>[ 1:  448.105496] I/KERNEL       (K 571): sm5703-fuelgauge 4-0071: fg_vbatocv_check: mode change to mix RS auto mode
+<6>[ 1:  448.107732] I/KERNEL       (K 571): sm5703-fuelgauge 4-0071: sm5703_get_soc: temp_fg = 177 , batt_temp = 350, volt_cal = 0x809e, curr_cal = 0x8085, high_temp_cal_fact = 0, low_temp_cal_fact = 0 soc = 786
+<6>[ 1:  448.107764] I/KERNEL       (K 571): sec-battery sec-battery.0: sec_bat_get_battery_info:Vnow(3867mV),Inow(-937mA),Imax(1000mA),SOC(78%),Tbat(350),is_hc_usb(0)
+<6>[ 1:  448.107778] I/KERNEL       (K 571): sec-battery sec-battery.0: Connected,Vavg(3891mV),Vocv(4105mV),Tamb(350),Iavg(-891mA),Iadc(0)
+<6>[ 1:  448.111343] I/KERNEL       (K 571): sec_bat_swelling_check: status(2), swell_mode(0:0), cv(0x1126), temp(350)
+<6>[ 1:  448.111357] I/KERNEL       (K 571): sec_bat_swelling_check: DISCHARGING or NOT-CHARGING. stop swelling mode
+<6>[ 1:  448.111381] I/KERNEL       (K 571): sec-battery sec-battery.0: sec_bat_monitor_work: Status(Discharging), Mode(None), Health(Good), Cable(1), Vendor((null)), level(100%)
+<4>[ 1:  449.108910] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  450.085459] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  451.088282] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  452.089928] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  453.091516] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  454.118733] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  455.093250] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  456.099717] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  457.100593] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  458.091762] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<6>[ 1:  458.146178] I/KERNEL       (K 571): sm5703-fuelgauge 4-0071: fg_vbatocv_check: mode change to mix RS auto mode
+<6>[ 1:  458.148156] I/KERNEL       (K 571): sm5703-fuelgauge 4-0071: sm5703_get_soc: temp_fg = 177 , batt_temp = 360, volt_cal = 0x809e, curr_cal = 0x8085, high_temp_cal_fact = 0, low_temp_cal_fact = 0 soc = 784
+<6>[ 1:  458.148189] I/KERNEL       (K 571): sec-battery sec-battery.0: sec_bat_get_battery_info:Vnow(3859mV),Inow(-1023mA),Imax(1000mA),SOC(78%),Tbat(360),is_hc_usb(0)
+<6>[ 1:  458.148203] I/KERNEL       (K 571): sec-battery sec-battery.0: Connected,Vavg(3870mV),Vocv(4101mV),Tamb(360),Iavg(-957mA),Iadc(0)
+<6>[ 1:  458.148689] I/KERNEL       (K 571): sec_bat_swelling_check: status(2), swell_mode(0:0), cv(0x1126), temp(360)
+<6>[ 1:  458.148699] I/KERNEL       (K 571): sec_bat_swelling_check: DISCHARGING or NOT-CHARGING. stop swelling mode
+<6>[ 1:  458.148719] I/KERNEL       (K 571): sec-battery sec-battery.0: sec_bat_monitor_work: Status(Discharging), Mode(None), Health(Good), Cable(1), Vendor((null)), level(100%)
+<4>[ 1:  459.094688] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  460.092341] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  461.077632] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  462.080476] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  463.083716] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  464.081071] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  465.082821] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  466.084637] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  467.093272] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  468.094036] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<6>[ 1:  468.181730] I/KERNEL       (K 571): sm5703-fuelgauge 4-0071: fg_vbatocv_check: mode change to mix RS auto mode
+<6>[ 1:  468.186484] I/KERNEL       (K 571): sm5703-fuelgauge 4-0071: sm5703_get_soc: temp_fg = 177 , batt_temp = 370, volt_cal = 0x809e, curr_cal = 0x8085, high_temp_cal_fact = 0, low_temp_cal_fact = 0 soc = 781
+<6>[ 1:  468.186520] I/KERNEL       (K 571): sec-battery sec-battery.0: sec_bat_get_battery_info:Vnow(3855mV),Inow(-957mA),Imax(1000mA),SOC(78%),Tbat(370),is_hc_usb(0)
+<6>[ 1:  468.186535] I/KERNEL       (K 571): sec-battery sec-battery.0: Connected,Vavg(3860mV),Vocv(4101mV),Tamb(370),Iavg(-981mA),Iadc(0)
+<6>[ 1:  468.188786] I/KERNEL       (K 571): sec_bat_swelling_check: status(2), swell_mode(0:0), cv(0x1126), temp(370)
+<6>[ 1:  468.188799] I/KERNEL       (K 571): sec_bat_swelling_check: DISCHARGING or NOT-CHARGING. stop swelling mode
+<6>[ 1:  468.188820] I/KERNEL       (K 571): sec-battery sec-battery.0: sec_bat_monitor_work: Status(Discharging), Mode(None), Health(Good), Cable(1), Vendor((null)), level(100%)
+<4>[ 1:  469.107256] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  470.097668] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  471.097106] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  472.099188] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  473.102045] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  474.089808] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  475.103003] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  476.092920] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  477.093776] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  478.077818] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<6>[ 1:  478.222875] I/KERNEL       (K 571): sm5703-fuelgauge 4-0071: fg_vbatocv_check: mode change to mix RS auto mode
+<6>[ 1:  478.225166] I/KERNEL       (K 571): sm5703-fuelgauge 4-0071: sm5703_get_soc: temp_fg = 177 , batt_temp = 370, volt_cal = 0x809e, curr_cal = 0x8085, high_temp_cal_fact = 0, low_temp_cal_fact = 0 soc = 780
+<6>[ 1:  478.225753] I/KERNEL       (K 571): sec-battery sec-battery.0: sec_bat_get_battery_info:Vnow(3851mV),Inow(-894mA),Imax(1000mA),SOC(78%),Tbat(370),is_hc_usb(0)
+<6>[ 1:  478.225785] I/KERNEL       (K 571): sec-battery sec-battery.0: Connected,Vavg(3854mV),Vocv(4097mV),Tamb(370),Iavg(-939mA),Iadc(0)
+<6>[ 1:  478.226451] I/KERNEL       (K 571): sec_bat_swelling_check: status(2), swell_mode(0:0), cv(0x1126), temp(370)
+<6>[ 1:  478.226464] I/KERNEL       (K 571): sec_bat_swelling_check: DISCHARGING or NOT-CHARGING. stop swelling mode
+<6>[ 1:  478.226487] I/KERNEL       (K 571): sec-battery sec-battery.0: sec_bat_monitor_work: Status(Discharging), Mode(None), Health(Good), Cable(1), Vendor((null)), level(100%)
+<4>[ 1:  479.079290] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  480.079440] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  481.086354] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  482.087330] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  483.092327] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  484.096168] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  485.091968] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  486.098194] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  487.098747] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  488.100053] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<6>[ 1:  488.266757] I/KERNEL       (K 571): sm5703-fuelgauge 4-0071: fg_vbatocv_check: mode change to mix RS auto mode
+<6>[ 1:  488.268613] I/KERNEL       (K 571): sm5703-fuelgauge 4-0071: sm5703_get_soc: temp_fg = 177 , batt_temp = 380, volt_cal = 0x809e, curr_cal = 0x8085, high_temp_cal_fact = 0, low_temp_cal_fact = 0 soc = 777
+<6>[ 1:  488.268640] I/KERNEL       (K 571): sec-battery sec-battery.0: sec_bat_get_battery_info:Vnow(3839mV),Inow(-949mA),Imax(1000mA),SOC(77%),Tbat(380),is_hc_usb(0)
+<6>[ 1:  488.268655] I/KERNEL       (K 571): sec-battery sec-battery.0: Connected,Vavg(3847mV),Vocv(4097mV),Tamb(380),Iavg(-925mA),Iadc(0)
+<6>[ 1:  488.269353] I/KERNEL       (K 571): sec_bat_swelling_check: status(2), swell_mode(0:0), cv(0x1126), temp(380)
+<6>[ 1:  488.269367] I/KERNEL       (K 571): sec_bat_swelling_check: DISCHARGING or NOT-CHARGING. stop swelling mode
+<6>[ 1:  488.269391] I/KERNEL       (K 571): sec-battery sec-battery.0: sec_bat_monitor_work: Status(Discharging), Mode(None), Health(Good), Cable(1), Vendor((null)), level(100%)
+<4>[ 1:  489.089113] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  490.102500] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  491.089715] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  492.092205] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  493.094699] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  494.099916] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  495.079087] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  496.081669] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  497.082861] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  498.088491] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<6>[ 1:  498.302320] I/KERNEL       (K 571): sm5703-fuelgauge 4-0071: fg_vbatocv_check: mode change to mix RS auto mode
+<6>[ 1:  498.310701] I/KERNEL       (K 571): sm5703-fuelgauge 4-0071: sm5703_get_soc: temp_fg = 177 , batt_temp = 380, volt_cal = 0x809e, curr_cal = 0x8085, high_temp_cal_fact = 0, low_temp_cal_fact = 0 soc = 775
+<6>[ 1:  498.310735] I/KERNEL       (K 571): sec-battery sec-battery.0: sec_bat_get_battery_info:Vnow(3843mV),Inow(-976mA),Imax(1000mA),SOC(77%),Tbat(380),is_hc_usb(0)
+<6>[ 1:  498.310749] I/KERNEL       (K 571): sec-battery sec-battery.0: Connected,Vavg(3842mV),Vocv(4093mV),Tamb(380),Iavg(-952mA),Iadc(0)
+<6>[ 1:  498.311918] I/KERNEL       (K 571): sec_bat_swelling_check: status(2), swell_mode(0:0), cv(0x1126), temp(380)
+<6>[ 1:  498.311935] I/KERNEL       (K 571): sec_bat_swelling_check: DISCHARGING or NOT-CHARGING. stop swelling mode
+<6>[ 1:  498.311959] I/KERNEL       (K 571): sec-battery sec-battery.0: sec_bat_monitor_work: Status(Discharging), Mode(None), Health(Good), Cable(1), Vendor((null)), level(100%)
+<4>[ 1:  499.092426] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  500.095588] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  501.095408] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  502.094366] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  503.095612] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  504.098727] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  505.086481] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  506.087069] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  507.088117] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  508.088435] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<6>[ 1:  508.341278] I/KERNEL       (K 571): sm5703-fuelgauge 4-0071: fg_vbatocv_check: mode change to mix RS auto mode
+<6>[ 1:  508.343437] I/KERNEL       (K 571): sm5703-fuelgauge 4-0071: sm5703_get_soc: temp_fg = 177 , batt_temp = 380, volt_cal = 0x809e, curr_cal = 0x8085, high_temp_cal_fact = 0, low_temp_cal_fact = 0 soc = 773
+<6>[ 1:  508.343461] I/KERNEL       (K 571): sec-battery sec-battery.0: sec_bat_get_battery_info:Vnow(3890mV),Inow(-714mA),Imax(1000mA),SOC(77%),Tbat(380),is_hc_usb(0)
+<6>[ 1:  508.343476] I/KERNEL       (K 571): sec-battery sec-battery.0: Connected,Vavg(3860mV),Vocv(4093mV),Tamb(380),Iavg(-871mA),Iadc(0)
+<6>[ 1:  508.343947] I/KERNEL       (K 571): sec_bat_swelling_check: status(2), swell_mode(0:0), cv(0x1126), temp(380)
+<6>[ 1:  508.343956] I/KERNEL       (K 571): sec_bat_swelling_check: DISCHARGING or NOT-CHARGING. stop swelling mode
+<6>[ 1:  508.343973] I/KERNEL       (K 571): sec-battery sec-battery.0: sec_bat_monitor_work: Status(Discharging), Mode(None), Health(Good), Cable(1), Vendor((null)), level(100%)
+<4>[ 1:  509.090596] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  510.093474] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  511.075736] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  512.077358] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  513.079854] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  514.083081] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  515.084993] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  516.085662] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  517.087386] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  518.087933] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<6>[ 1:  518.361347] I/KERNEL       (K 571): sm5703-fuelgauge 4-0071: fg_vbatocv_check: mode change to mix RS auto mode
+<6>[ 1:  518.363218] I/KERNEL       (K 571): sm5703-fuelgauge 4-0071: sm5703_get_soc: temp_fg = 177 , batt_temp = 370, volt_cal = 0x809e, curr_cal = 0x8085, high_temp_cal_fact = 0, low_temp_cal_fact = 0 soc = 772
+<6>[ 1:  518.363243] I/KERNEL       (K 571): sec-battery sec-battery.0: sec_bat_get_battery_info:Vnow(3886mV),Inow(-753mA),Imax(1000mA),SOC(77%),Tbat(370),is_hc_usb(0)
+<6>[ 1:  518.363257] I/KERNEL       (K 571): sec-battery sec-battery.0: Connected,Vavg(3882mV),Vocv(4093mV),Tamb(370),Iavg(-767mA),Iadc(0)
+<6>[ 1:  518.363735] I/KERNEL       (K 571): sec_bat_swelling_check: status(2), swell_mode(0:0), cv(0x1126), temp(370)
+<6>[ 1:  518.363745] I/KERNEL       (K 571): sec_bat_swelling_check: DISCHARGING or NOT-CHARGING. stop swelling mode
+<6>[ 1:  518.363764] I/KERNEL       (K 571): sec-battery sec-battery.0: sec_bat_monitor_work: Status(Discharging), Mode(None), Health(Good), Cable(1), Vendor((null)), level(100%)
+<4>[ 1:  519.083615] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  520.084485] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  521.085731] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  522.086968] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  523.089129] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  524.088352] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  525.090631] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  526.093613] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  527.096524] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  528.077247] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<6>[ 1:  528.381198] I/KERNEL       (K 571): sm5703-fuelgauge 4-0071: fg_vbatocv_check: mode change to mix RS auto mode
+<6>[ 1:  528.383038] I/KERNEL       (K 571): sm5703-fuelgauge 4-0071: sm5703_get_soc: temp_fg = 177 , batt_temp = 370, volt_cal = 0x809e, curr_cal = 0x8085, high_temp_cal_fact = 0, low_temp_cal_fact = 0 soc = 770
+<6>[ 1:  528.383062] I/KERNEL       (K 571): sec-battery sec-battery.0: sec_bat_get_battery_info:Vnow(3882mV),Inow(-714mA),Imax(1000mA),SOC(77%),Tbat(370),is_hc_usb(0)
+<6>[ 1:  528.383076] I/KERNEL       (K 571): sec-battery sec-battery.0: Connected,Vavg(3885mV),Vocv(4089mV),Tamb(370),Iavg(-741mA),Iadc(0)
+<6>[ 1:  528.383569] I/KERNEL       (K 571): sec_bat_swelling_check: status(2), swell_mode(0:0), cv(0x1126), temp(370)
+<6>[ 1:  528.383578] I/KERNEL       (K 571): sec_bat_swelling_check: DISCHARGING or NOT-CHARGING. stop swelling mode
+<6>[ 1:  528.383597] I/KERNEL       (K 571): sec-battery sec-battery.0: sec_bat_monitor_work: Status(Discharging), Mode(None), Health(Good), Cable(1), Vendor((null)), level(100%)
+<4>[ 1:  529.080560] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  530.082725] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  531.084417] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  532.085523] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  533.086656] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  534.087720] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  535.083022] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  536.084343] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  537.085208] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  538.086434] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<6>[ 1:  538.401337] I/KERNEL       (K 571): sm5703-fuelgauge 4-0071: fg_vbatocv_check: mode change to mix RS auto mode
+<6>[ 1:  538.403185] I/KERNEL       (K 571): sm5703-fuelgauge 4-0071: sm5703_get_soc: temp_fg = 177 , batt_temp = 360, volt_cal = 0x809e, curr_cal = 0x8085, high_temp_cal_fact = 0, low_temp_cal_fact = 0 soc = 769
+<6>[ 1:  538.403209] I/KERNEL       (K 571): sec-battery sec-battery.0: sec_bat_get_battery_info:Vnow(3882mV),Inow(-894mA),Imax(1000mA),SOC(76%),Tbat(360),is_hc_usb(0)
+<6>[ 1:  538.403223] I/KERNEL       (K 571): sec-battery sec-battery.0: Connected,Vavg(3882mV),Vocv(4089mV),Tamb(360),Iavg(-788mA),Iadc(0)
+<6>[ 1:  538.403698] I/KERNEL       (K 571): sec_bat_swelling_check: status(2), swell_mode(0:0), cv(0x1126), temp(360)
+<6>[ 1:  538.403707] I/KERNEL       (K 571): sec_bat_swelling_check: DISCHARGING or NOT-CHARGING. stop swelling mode
+<6>[ 1:  538.403725] I/KERNEL       (K 571): sec-battery sec-battery.0: sec_bat_monitor_work: Status(Discharging), Mode(None), Health(Good), Cable(1), Vendor((null)), level(100%)
+<4>[ 1:  539.087024] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  540.088708] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  541.090568] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  542.093820] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  543.096717] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  544.097354] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  545.080657] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  546.079186] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  547.084925] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  548.085622] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<6>[ 1:  548.421519] I/KERNEL       (K 571): sm5703-fuelgauge 4-0071: fg_vbatocv_check: mode change to mix RS auto mode
+<6>[ 1:  548.423587] I/KERNEL       (K 571): sm5703-fuelgauge 4-0071: sm5703_get_soc: temp_fg = 177 , batt_temp = 360, volt_cal = 0x809e, curr_cal = 0x8085, high_temp_cal_fact = 0, low_temp_cal_fact = 0 soc = 767
+<6>[ 1:  548.423619] I/KERNEL       (K 571): sec-battery sec-battery.0: sec_bat_get_battery_info:Vnow(3890mV),Inow(-781mA),Imax(1000mA),SOC(76%),Tbat(360),is_hc_usb(0)
+<6>[ 1:  548.423633] I/KERNEL       (K 571): sec-battery sec-battery.0: Connected,Vavg(3885mV),Vocv(4085mV),Tamb(360),Iavg(-824mA),Iadc(0)
+<6>[ 1:  548.424123] I/KERNEL       (K 571): sec_bat_swelling_check: status(2), swell_mode(0:0), cv(0x1126), temp(360)
+<6>[ 1:  548.424132] I/KERNEL       (K 571): sec_bat_swelling_check: DISCHARGING or NOT-CHARGING. stop swelling mode
+<6>[ 1:  548.424194] I/KERNEL       (K 571): sec-battery sec-battery.0: sec_bat_monitor_work: Status(Discharging), Mode(None), Health(Good), Cable(1), Vendor((null)), level(100%)
+<4>[ 1:  549.087124] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  550.087419] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  551.083381] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  552.084271] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  553.086728] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  554.086476] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  555.087052] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  556.088186] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  557.091071] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  558.093781] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<6>[ 1:  558.440934] I/KERNEL       (K 571): sm5703-fuelgauge 4-0071: fg_vbatocv_check: mode change to mix RS auto mode
+<6>[ 1:  558.442795] I/KERNEL       (K 571): sm5703-fuelgauge 4-0071: sm5703_get_soc: temp_fg = 177 , batt_temp = 360, volt_cal = 0x809e, curr_cal = 0x8085, high_temp_cal_fact = 0, low_temp_cal_fact = 0 soc = 766
+<6>[ 1:  558.442819] I/KERNEL       (K 571): sec-battery sec-battery.0: sec_bat_get_battery_info:Vnow(3894mV),Inow(-781mA),Imax(1000mA),SOC(76%),Tbat(360),is_hc_usb(0)
+<6>[ 1:  558.443211] I/KERNEL       (K 571): sec-battery sec-battery.0: Connected,Vavg(3890mV),Vocv(4085mV),Tamb(360),Iavg(-791mA),Iadc(0)
+<6>[ 1:  558.443686] I/KERNEL       (K 571): sec_bat_swelling_check: status(2), swell_mode(0:0), cv(0x1126), temp(360)
+<6>[ 1:  558.443694] I/KERNEL       (K 571): sec_bat_swelling_check: DISCHARGING or NOT-CHARGING. stop swelling mode
+<6>[ 1:  558.443712] I/KERNEL       (K 571): sec-battery sec-battery.0: sec_bat_monitor_work: Status(Discharging), Mode(None), Health(Good), Cable(1), Vendor((null)), level(100%)
+<4>[ 1:  559.095991] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  560.097352] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  561.081909] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  562.081960] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  563.083219] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  564.084561] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  565.085282] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  566.080868] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  567.081787] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  568.083253] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<6>[ 1:  568.461987] I/KERNEL       (K 571): sm5703-fuelgauge 4-0071: fg_vbatocv_check: mode change to mix RS auto mode
+<6>[ 1:  568.463833] I/KERNEL       (K 571): sm5703-fuelgauge 4-0071: sm5703_get_soc: temp_fg = 177 , batt_temp = 360, volt_cal = 0x809e, curr_cal = 0x8085, high_temp_cal_fact = 0, low_temp_cal_fact = 0 soc = 764
+<6>[ 1:  568.463857] I/KERNEL       (K 571): sec-battery sec-battery.0: sec_bat_get_battery_info:Vnow(3890mV),Inow(-812mA),Imax(1000mA),SOC(76%),Tbat(360),is_hc_usb(0)
+<6>[ 1:  568.463871] I/KERNEL       (K 571): sec-battery sec-battery.0: Connected,Vavg(3891mV),Vocv(4085mV),Tamb(360),Iavg(-794mA),Iadc(0)
+<6>[ 1:  568.464345] I/KERNEL       (K 571): sec_bat_swelling_check: status(2), swell_mode(0:0), cv(0x1126), temp(360)
+<6>[ 1:  568.464353] I/KERNEL       (K 571): sec_bat_swelling_check: DISCHARGING or NOT-CHARGING. stop swelling mode
+<6>[ 1:  568.464375] I/KERNEL       (K 571): sec-battery sec-battery.0: sec_bat_monitor_work: Status(Discharging), Mode(None), Health(Good), Cable(1), Vendor((null)), level(100%)
+<4>[ 1:  569.083727] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  570.085943] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  571.085739] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  572.087931] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  573.090822] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  574.093764] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  575.094823] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  576.096003] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  577.097248] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  578.082517] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<6>[ 1:  578.481458] I/KERNEL       (K 571): sm5703-fuelgauge 4-0071: fg_vbatocv_check: mode change to mix RS auto mode
+<6>[ 1:  578.483568] I/KERNEL       (K 571): sm5703-fuelgauge 4-0071: sm5703_get_soc: temp_fg = 177 , batt_temp = 360, volt_cal = 0x809e, curr_cal = 0x8085, high_temp_cal_fact = 0, low_temp_cal_fact = 0 soc = 763
+<6>[ 1:  578.483600] I/KERNEL       (K 571): sec-battery sec-battery.0: sec_bat_get_battery_info:Vnow(3886mV),Inow(-679mA),Imax(1000mA),SOC(76%),Tbat(360),is_hc_usb(0)
+<6>[ 1:  578.483615] I/KERNEL       (K 571): sec-battery sec-battery.0: Connected,Vavg(3888mV),Vocv(4082mV),Tamb(360),Iavg(-757mA),Iadc(0)
+<6>[ 1:  578.484100] I/KERNEL       (K 571): sec_bat_swelling_check: status(2), swell_mode(0:0), cv(0x1126), temp(360)
+<6>[ 1:  578.484110] I/KERNEL       (K 571): sec_bat_swelling_check: DISCHARGING or NOT-CHARGING. stop swelling mode
+<6>[ 1:  578.484128] I/KERNEL       (K 571): sec-battery sec-battery.0: sec_bat_monitor_work: Status(Discharging), Mode(None), Health(Good), Cable(1), Vendor((null)), level(100%)
+<4>[ 1:  579.082215] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  580.083098] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  581.084953] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  581.476162] I/KERNEL       (K 533): d5_hevc_set_clock to 133333333
+<6>[ 1:  581.633510] I/KERNEL       (K  36): dw_mmc_emmc dw_mmc_emmc.0: change emmc clock 50MHz
+<4>[ 1:  583.179926] I/KERNEL       (K 358): BTK rfcomm_sock_create > c1761000
+<4>[ 1:  583.179978] I/KERNEL       (K 358): BTK rfcomm_sock_bind > xx:xx:xx:70:38:c8 
+<4>[ 1:  583.180023] I/KERNEL       (K 358): BTK rfcomm_sock_listen > 5
+<4>[ 1:  583.281859] I/KERNEL       (K 358): BTK rfcomm_sock_create > c1761600
+<4>[ 1:  583.281913] I/KERNEL       (K 358): BTK rfcomm_sock_bind > xx:xx:xx:70:38:c8 
+<4>[ 1:  583.281954] I/KERNEL       (K 358): BTK rfcomm_sock_listen > 5
+<6>[ 1:  584.665374] I/KERNEL       (K 558): CFG80211-INFO2) wl_cfg80211_disconnect : Reason 3
+<6>[ 1:  584.665913] I/KERNEL       (K 558): CFG80211-INFO2) wl_cfg80211_disconnect : Wait for complete of connecting 
+<4>[ 1:  584.682195] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  584.715884] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<6>[ 1:  584.732028] I/KERNEL       (K 554): CFG80211-INFO2) wl_is_linkdown : Link down Reason : WLC_E_LINK
+<4>[ 1:  584.732040] I/KERNEL       (K 554): link down if p2p-wlan0-0 may call cfg80211_disconnected. event : 16, reason=2 from ae:77:f3
+<4>[ 1:  584.744204] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<6>[ 1:  584.881806] I/KERNEL       (K   9): cfg80211: Calling CRDA to update world regulatory domain
+<6>[ 1:  584.881922] I/KERNEL       (K   9): cfg80211: World regulatory domain updated:
+<6>[ 1:  584.881932] I/KERNEL       (K   9): cfg80211:   (start_freq - end_freq @ bandwidth), (max_antenna_gain, max_eirp)
+<6>[ 1:  584.881943] I/KERNEL       (K   9): cfg80211:   (2402000 KHz - 2472000 KHz @ 40000 KHz), (2000 mBi, 0 mBm)
+<6>[ 1:  584.881952] I/KERNEL       (K   9): cfg80211:   (2457000 KHz - 2482000 KHz @ 20000 KHz), (2000 mBi, 0 mBm)
+<6>[ 1:  584.881960] I/KERNEL       (K   9): cfg80211:   (2474000 KHz - 2494000 KHz @ 20000 KHz), (2000 mBi, 0 mBm)
+<6>[ 1:  584.881968] I/KERNEL       (K   9): cfg80211:   (5170000 KHz - 5250000 KHz @ 80000 KHz), (2000 mBi, 0 mBm)
+<6>[ 1:  584.881976] I/KERNEL       (K   9): cfg80211:   (5250000 KHz - 5330000 KHz @ 80000 KHz), (2000 mBi, 0 mBm)
+<6>[ 1:  584.881984] I/KERNEL       (K   9): cfg80211:   (5735000 KHz - 5835000 KHz @ 80000 KHz), (2000 mBi, 0 mBm)
+<4>[ 1:  585.083052] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  586.083696] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<6>[ 1:  586.264051] I/KERNEL       (K 558): CFG80211-INFO2) dhd_cfg80211_clean_p2p_info : Clean : op_mode=0x0005
+<4>[ 1:  586.266081] I/KERNEL       (K 558): dhd_wlfc_deinit():3380, maintain HOST RXRERODER flag in tvl
+<4>[ 1:  586.266267] I/KERNEL       (K 558): dhd_wlfc_deinit():3394 successfully disabled bdcv2 tlv signaling, 64
+<4>[ 1:  586.266300] I/KERNEL       (K 558): dhdsdio_func_blocksize: F2 Block size set from 128 to 512
+<4>[ 1:  586.266423] I/KERNEL       (K 558): deleting interface 'p2p-wlan0-0' idx 1
+<4>[ 1:  586.268807] I/KERNEL       (K 558): dhd_wl_ioctl: WLC_GET_VAR: arp_hostip, ret = -1
+<4>[ 1:  586.269014] I/KERNEL       (K 558): dhd_wl_ioctl: WLC_SET_VAR: arp_hostip_clear, ret = -1
+<4>[ 1:  586.269024] I/KERNEL       (K 558): dhd_aoe_hostip_clr failed code -1
+<4>[ 1:  586.269032] I/KERNEL       (K 558): aoe_update_host_ipv4_table failed
+<4>[ 1:  586.278193] I/KERNEL       (K 558): DHD-MON: dhd_del_monitor IF not found in monitor array, is this a monitor IF? 0xc410e000
+<4>[ 1:  587.085063] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  587.305908] I/KERNEL       (K 646): dhdcdc_set_ioctl: SET PM to 2
+<6>[ 1:  587.306509] I/KERNEL       (K 554): CFG80211-INFO2) wl_event_handler : was terminated
+<4>[ 1:  587.306626] I/KERNEL       (K 646): wl_destroy_event_handler(): thread:wl_event_handler:22a terminated OK
+<4>[ 1:  587.307111] I/KERNEL       (K 646): wl_android_wifi_off in
+<4>[ 1:  587.314933] I/KERNEL       (K 646): wifi_platform_set_power = 0
+<6>[ 1:  587.314958] I/KERNEL       (K 646): ------------------------------------------------
+<6>[ 1:  587.314960] I/KERNEL       (K 646): ------------------------------------------------
+<6>[ 1:  587.314969] I/KERNEL       (K 646): brcm_wlan_power Enter: power off
+<3>[ 1:  587.314976] I/KERNEL       (K 646): sdio_ctrl_power(0)
+<6>[ 1:  587.315024] I/KERNEL       (K 646): mmc_host mmc1: Bus speed (slot 0) = 12500000Hz (slot req 200000000Hz, actual 12500000HZ div = 0)
+<4>[ 1:  587.317032] I/KERNEL       (K 646): Failed to request for wl_reg_on
+<4>[ 1:  588.088012] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<6>[ 1:  588.501101] I/KERNEL       (K 571): sm5703-fuelgauge 4-0071: fg_vbatocv_check: mode change to mix RS auto mode
+<6>[ 1:  588.503159] I/KERNEL       (K 571): sm5703-fuelgauge 4-0071: sm5703_get_soc: temp_fg = 177 , batt_temp = 360, volt_cal = 0x809e, curr_cal = 0x8085, high_temp_cal_fact = 0, low_temp_cal_fact = 0 soc = 761
+<6>[ 1:  588.503188] I/KERNEL       (K 571): sec-battery sec-battery.0: sec_bat_get_battery_info:Vnow(3886mV),Inow(-679mA),Imax(1000mA),SOC(76%),Tbat(360),is_hc_usb(0)
+<6>[ 1:  588.503203] I/KERNEL       (K 571): sec-battery sec-battery.0: Connected,Vavg(3886mV),Vocv(4082mV),Tamb(360),Iavg(-698mA),Iadc(0)
+<6>[ 1:  588.503684] I/KERNEL       (K 571): sec_bat_swelling_check: status(2), swell_mode(0:0), cv(0x1126), temp(360)
+<6>[ 1:  588.503693] I/KERNEL       (K 571): sec_bat_swelling_check: DISCHARGING or NOT-CHARGING. stop swelling mode
+<6>[ 1:  588.503712] I/KERNEL       (K 571): sec-battery sec-battery.0: sec_bat_monitor_work: Status(Discharging), Mode(None), Health(Good), Cable(1), Vendor((null)), level(100%)
+<4>[ 1:  589.090790] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  590.092937] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  590.260218] I/KERNEL       (K 571): BTK hci_event_packet > event(0x04)
+<4>[ 1:  590.260243] I/KERNEL       (K 571): BTK hci_conn_request_evt > hci0 bdaddr 80:33:01:5f:14:34 type 0x1
+<4>[ 1:  590.273928] I/KERNEL       (K  29): BTK hci_event_packet > event(0x03)
+<4>[ 1:  590.281174] I/KERNEL       (K  29): BTK l2cap_information_req > +
+<4>[ 1:  590.296807] I/KERNEL       (K 571): BTK l2cap_information_req > +
+<4>[ 1:  590.305118] I/KERNEL       (K 571): BTK l2cap_sock_new_connection_cb >
+<4>[ 1:  590.312856] I/KERNEL       (K 571): BTK l2cap_config_req > dcid 0x0040 flags 0x00
+<4>[ 1:  590.312858] I/KERNEL       (K 571): BTK l2cap_config_rsp > scid 0x0040 flags 0x00 result 0x00 len 0BTK l2cap_sock_accept > timeo 2147483647
+<4>[ 1:  590.320740] I/KERNEL       (K 358): BTK l2cap_sock_accept > new socket
+<4>[ 1:  590.391354] I/KERNEL       (K 571): BTK l2cap_sock_new_connection_cb >
+<4>[ 1:  590.398823] I/KERNEL       (K  29): BTK l2cap_config_req > dcid 0x0040 flags 0x00
+<4>[ 1:  590.398826] I/KERNEL       (K  29): BTK l2cap_config_rsp > scid 0x0040 flags 0x00 result 0x00 len 0BTK l2cap_sock_accept > timeo 0
+<4>[ 1:  590.398959] I/KERNEL       (K  41): BTK l2cap_sock_accept > new socket
+<4>[ 1:  590.429142] I/KERNEL       (K 358): BTK rfcomm_sock_accept > DECLARE_WAITQUEUE
+<4>[ 1:  590.429170] I/KERNEL       (K 358): BTK rfcomm_sock_accept > sk c6443400 timeo 0
+<4>[ 1:  590.429182] I/KERNEL       (K 358): BTK rfcomm_sock_accept > new socket c14c0c00
+<4>[ 1:  590.665178] I/KERNEL       (K  29): l2cap_connect_create_rsp > +
+<4>[ 1:  590.665216] I/KERNEL       (K  29): l2cap_connect_create_rsp > -
+<4>[ 1:  590.671309] I/KERNEL       (K  29): BTK l2cap_config_req > dcid 0x0041 flags 0x00
+<4>[ 1:  590.671311] I/KERNEL       (K  29): BTK l2cap_config_rsp > scid 0x0041 flags 0x00 result 0x00 len 0BTK rfcomm_sock_create > c7703600
+<4>[ 1:  591.033005] I/KERNEL       (K 358): BTK rfcomm_sock_bind > xx:xx:xx:70:38:c8 
+<4>[ 1:  591.033080] I/KERNEL       (K 358): BTK rfcomm_sock_connect > BT_CONNECTED
+<4>[ 1:  591.104751] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  592.094913] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<6>[ 1:  592.966848] I/KERNEL       (K 255): drime5-rtc drime5-rtc: settime(): 2016.07.31 00:04:20 (UTC) 
+<6>[ 1:  592.966895] I/KERNEL       (K 534): read time 2016.07.31 00:04:20
+<6>[ 1:  592.966906] I/KERNEL       (K 534): drime5_rtc_setaie: alarm enable=0
+<6>[ 1:  592.970071] I/KERNEL       (K 255): drime5-rtc drime5-rtc: rtc reset is cleared. 
+<6>[ 1:  592.972656] I/KERNEL       (K 255): drime5-rtc drime5-rtc: settime(): 2016.07.31 00:04:20 (UTC) 
+<6>[ 1:  592.972718] I/KERNEL       (K 534): read time 2016.07.31 00:04:20
+<6>[ 1:  592.972729] I/KERNEL       (K 534): drime5_rtc_setaie: alarm enable=0
+<6>[ 1:  592.973434] I/KERNEL       (K 255): drime5-rtc drime5-rtc: rtc reset is cleared. 
+<6>[ 1:  593.036649] I/KERNEL       (K 659): ____ show_board_revision(10)
+<4>[ 1:  593.045898] I/KERNEL       (K 660): 
+<4>[ 1:  593.045898] I/KERNEL       (K 660): Dongle Host Driver, version 1.141.64.54 (r)
+<4>[ 1:  593.045898] I/KERNEL       (K 660): Compiled in drivers/net/wireless/bcmdhd on May 17 2016 at 11:11:12
+<4>[ 1:  593.045926] I/KERNEL       (K 660): wl_android_wifi_on in
+<4>[ 1:  593.045935] I/KERNEL       (K 660): wifi_platform_set_power = 1
+<6>[ 1:  593.045951] I/KERNEL       (K 660): ------------------------------------------------
+<6>[ 1:  593.045952] I/KERNEL       (K 660): ------------------------------------------------
+<6>[ 1:  593.045960] I/KERNEL       (K 660): brcm_wlan_power Enter: power on
+<4>[ 1:  593.045974] I/KERNEL       (K 660): [brcm_wlan_power] gpio ok!!!
+<3>[ 1:  593.045981] I/KERNEL       (K 660): sdio_ctrl_power(1)
+<6>[ 1:  593.051865] I/KERNEL       (K 660): mmc_host mmc1: current voltage : 3.3v
+<6>[ 1:  593.064599] I/KERNEL       (K 660): mmc_host mmc1: Bus speed (slot 0) = 12500000Hz (slot req 400000Hz, actual 390625HZ div = 16)
+<4>[ 1:  593.097017] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<6>[ 1:  593.294717] I/KERNEL       (K 660): sdio_reset_comm():
+<6>[ 1:  593.294795] I/KERNEL       (K 660): mmc_host mmc1: Bus speed (slot 0) = 12500000Hz (slot req 400000Hz, actual 390625HZ div = 16)
+<4>[ 1:  593.301742] I/KERNEL       (K 660): mmc1: R4_18V_PRESENT
+<4>[ 1:  593.302072] I/KERNEL       (K 660): mmc1: cannot verify signal voltage switch
+<6>[ 1:  593.314556] I/KERNEL       (K 660): mmc_host mmc1: current voltage : 1.8v
+<4>[ 1:  593.338039] I/KERNEL       (K 660): mmc1: queuing unknown CIS tuple 0x80 (2 bytes)
+<4>[ 1:  593.340774] I/KERNEL       (K 660): mmc1: queuing unknown CIS tuple 0x80 (7 bytes)
+<4>[ 1:  593.342294] I/KERNEL       (K 660): mmc1: queuing unknown CIS tuple 0x80 (3 bytes)
+<4>[ 1:  593.343813] I/KERNEL       (K 660): mmc1: queuing unknown CIS tuple 0x80 (3 bytes)
+<6>[ 1:  593.410764] I/KERNEL       (K 660): mmc_host mmc1: Bus speed (slot 0) = 200000000Hz (slot req 400000Hz, actual 400000HZ div = 250)
+<6>[ 1:  593.410793] I/KERNEL       (K 660): mmc_host mmc1: Bus speed (slot 0) = 200000000Hz (slot req 200000000Hz, actual 200000000HZ div = 0)
+<6>[ 1:  593.410812] I/KERNEL       (K 660): dw_mmc_sdio dw_mmc_sdio.0: sdio tuning: PHASE_SHIFT_180
+<4>[ 1:  593.416781] I/KERNEL       (K 660): F1 signature OK, socitype:0x1 chip:0x4354 rev:0x1 pkg:0x0
+<4>[ 1:  593.420243] I/KERNEL       (K 660): DHD: dongle ram size is set to 786432(orig 786432) at 0x180000
+<4>[ 1:  593.420576] I/KERNEL       (K 660): dhdsdio_download_firmware: firmware path=/lib/firmware/wlan_net_bcm4354.bin, nvram path=/opt/etc/nvram/nvram_net_bcm4354.txt
+<4>[ 1:  593.488678] I/KERNEL       (K 660): dhdsdio_write_vars: Download, Upload and compare of NVRAM succeeded.
+<4>[ 1:  593.536534] I/KERNEL       (K 660): dhd_bus_init: enable 0x06, ready 0x06 (waited 0us)
+<4>[ 1:  593.537139] I/KERNEL       (K  47): dhdsdio_readshared: address (0x00000000) of sdpcm_shared invalid
+<4>[ 1:  593.542768] I/KERNEL       (K  47): dhdsdio_readshared: address (0x00000000) of sdpcm_shared invalid
+<4>[ 1:  593.543011] I/KERNEL       (K 660): dhd_wl_ioctl: WLC_GET_VAR: cisdump, ret = -23
+<4>[ 1:  593.543025] I/KERNEL       (K 660): [WIFI_SEC] dhd_check_module_cid: CIS reading failed, ret=-23
+<4>[ 1:  593.545333] I/KERNEL       (K 660): Firmware up: op_mode=0x0005, MAC=a4:ef:1e
+<4>[ 1:  593.545730] I/KERNEL       (K 660): [WIFI_SEC] sec_get_param_wfa_cert: File [/data/.roamoff.info] doesn't exist 
+<4>[ 1:  593.548715] I/KERNEL       (K 660): dhdcdc_set_ioctl: SET PM to 2
+<4>[ 1:  593.548903] I/KERNEL       (K 660): [WIFI_SEC] sec_control_pm: /data/.psm.info open failed, so set PM to 2
+<4>[ 1:  593.549095] I/KERNEL       (K 660): [WIFI_SEC] sec_get_param_wfa_cert: File [/data/.bustxglom.info] doesn't exist 
+<4>[ 1:  593.550090] I/KERNEL       (K 660): [WIFI_SEC] dhd_sel_ant_from_file: File [/opt/etc/.ant.info] open error
+<4>[ 1:  593.550549] I/KERNEL       (K 660): [WIFI_SEC] sec_get_param_wfa_cert: File [/data/.frameburst.info] doesn't exist 
+<4>[ 1:  593.552037] I/KERNEL       (K 660): dhd_wl_ioctl: WLC_SET_VAR: aibss_bcn_force_config, ret = -23
+<4>[ 1:  593.552057] I/KERNEL       (K 660): dhd_preinit_ioctls Set aibss_bcn_force_config to 500, 5000, 5000 returned (-23)
+<4>[ 1:  593.552976] I/KERNEL       (K 660): dhd_wl_ioctl: WLC_SET_VAR: pspretend_threshold, ret = -23
+<4>[ 1:  593.552987] I/KERNEL       (K 660): dhd_preinit_ioctls pspretend_threshold for HostAPD returned (-23)
+<4>[ 1:  593.557543] I/KERNEL       (K 660): Firmware version = wl0: May 12 2016 21:45:51 version 7.26.19.1 (A1 Station/P2P) FWID 01-2d8f95a2
+<4>[ 1:  593.557650] I/KERNEL       (K 660): [WIFI_SEC] .wifiver.info already saved.
+<4>[ 1:  593.557880] I/KERNEL       (K 660): [WIFI_SEC] sec_get_param_wfa_cert: File [/data/.proptx.info] doesn't exist 
+<4>[ 1:  593.558325] I/KERNEL       (K 660): dhd_wlfc_hostreorder_init(): successful bdcv2 tlv signaling, 64
+<4>[ 1:  593.558578] I/KERNEL       (K 660): dhd_wl_ioctl: WLC_GET_VAR: pfnlbest, ret = -14
+<4>[ 1:  593.565344] I/KERNEL       (K 660): [WIFI_SEC] dhd_write_macaddr : no efs filepath
+<6>[ 1:  593.565346] I/KERNEL       (K 660): CFG80211-INFO2) wl_cfg80211_attach_post : p2p0: p2p_dev_addr=a6:ef:1e
+<4>[ 1:  593.619837] I/KERNEL       (K 660): wl_create_event_handler(): thread:wl_event_handler:295 started
+<4>[ 1:  593.619876] I/KERNEL       (K 660): /data/.cid.info file open error
+<6>[ 1:  593.619970] I/KERNEL       (K 661): CFG80211-INFO2) wl_event_handler : tsk Enter, tsk = 0xc145d520
+<6>[ 1:  593.672829] I/KERNEL       (K 378): WLDEV-INFO) wldev_set_country: set country for SG as SG rev 0
+<4>[ 1:  593.779967] I/KERNEL       (K  47): WLC_E_IF: NO_IF set, event Ignored
+<4>[ 1:  594.099882] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  594.269989] I/KERNEL       (K 661): dhd_wl_ioctl: WLC_IOCTL: cmd: 23, ret = -17
+<6>[ 1:  594.270018] I/KERNEL       (K 661): CFG80211-INFO2) wl_notify_rx_mgmt_frame : WLC_GET_BSSID error -17
+<7>[ 1:  594.270035] I/KERNEL       (K 661): CFGP2P-ACTION) wl_cfgp2p_print_actframe :RX P2P Provision Discovery Request Frame, channel=1
+<7>[ 1:  594.279794] I/KERNEL       (K 665): CFGP2P-ACTION) wl_cfgp2p_print_actframe :TX P2P Provision Discovery Response Frame, channel=1
+<4>[ 1:  594.329474] I/KERNEL       (K 661): dhd_wl_ioctl: WLC_IOCTL: cmd: 23, ret = -17
+<6>[ 1:  594.329508] I/KERNEL       (K 661): CFG80211-INFO2) wl_notify_rx_mgmt_frame : WLC_GET_BSSID error -17
+<7>[ 1:  594.331513] I/KERNEL       (K 661): CFGP2P-ACTION) wl_cfgp2p_print_actframe :RX P2P Group Owner Negotiation Req Frame, channel=1
+<7>[ 1:  594.345107] I/KERNEL       (K 665): CFGP2P-ACTION) wl_cfgp2p_print_actframe :TX P2P Group Owner Negotiation Rsp Frame, channel=1
+<7>[ 1:  594.345120] I/KERNEL       (K 665): CFGP2P-ACTION) wl_cfgp2p_need_wait_actfrmae :Check TX P2P Group Owner Negotiation Rsp Frame status
+<4>[ 1:  594.357454] I/KERNEL       (K 665): dhd_wlfc_init(): successfully enabled bdcv2 tlv signaling, 79
+<4>[ 1:  594.357741] I/KERNEL       (K 665): dhd_wlfc_init: query wlfc_mode succeed, fw_caps=0x1c
+<4>[ 1:  594.357988] I/KERNEL       (K 665): dhd_wlfc_init(): wlfc_mode=0x1c, ret=0
+<4>[ 1:  594.358015] I/KERNEL       (K 665): dhdsdio_func_blocksize: F2 Block size set from 512 to 128
+<4>[ 1:  594.359129] I/KERNEL       (K 665): dhd_wl_ioctl: WLC_IOCTL: cmd: 23, ret = -17
+<4>[ 1:  594.366172] I/KERNEL       (K 665): Register interface [p2p-wlan0-0]  MAC: a4:ef:1e
+<4>[ 1:  594.366172] I/KERNEL       (K 665): 
+<6>[ 1:  594.367726] I/KERNEL       (K 665): CFG80211-INFO2) wl_cfg80211_add_virtual_iface :  virtual interface(p2p-wlan0-0) is created net attach done
+<6>[ 1:  594.367740] I/KERNEL       (K 665): CFG80211-INFO2) dhd_cfg80211_set_p2p_info : Set : op_mode=0x0025
+<7>[ 1:  594.384075] I/KERNEL       (K 665): CFGP2P-ACTION) wl_cfgp2p_print_actframe :TX P2P Group Owner Negotiation Req Frame, channel=1
+<4>[ 1:  594.410967] I/KERNEL       (K 661): dhd_wl_ioctl: WLC_IOCTL: cmd: 23, ret = -17
+<6>[ 1:  594.411014] I/KERNEL       (K 661): CFG80211-INFO2) wl_notify_rx_mgmt_frame : WLC_GET_BSSID error -17
+<7>[ 1:  594.413215] I/KERNEL       (K 661): CFGP2P-ACTION) wl_cfgp2p_print_actframe :RX P2P Group Owner Negotiation Rsp Frame, channel=1
+<7>[ 1:  594.417500] I/KERNEL       (K 665): CFGP2P-ACTION) wl_cfgp2p_print_actframe :TX P2P Group Owner Negotiation Req Frame, channel=1
+<7>[ 1:  594.828864] I/KERNEL       (K 665): CFGP2P-ACTION) wl_cfgp2p_print_actframe :TX P2P Group Owner Negotiation Confirm Frame, channel=1
+<4>[ 1:  594.872201] I/KERNEL       (K 661): dhd_wl_ioctl: WLC_IOCTL: cmd: 23, ret = -17
+<6>[ 1:  594.872230] I/KERNEL       (K 661): CFG80211-INFO2) wl_notify_rx_mgmt_frame : WLC_GET_BSSID error -17
+<7>[ 1:  594.872249] I/KERNEL       (K 661): CFGP2P-ACTION) wl_cfgp2p_print_actframe :RX P2P Group Owner Negotiation Rsp Frame, channel=1
+<7>[ 1:  594.941570] I/KERNEL       (K 665): CFGP2P-ACTION) wl_cfgp2p_print_actframe :TX P2P Group Owner Negotiation Confirm Frame, channel=1
+<4>[ 1:  595.085358] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<6>[ 1:  595.283783] I/KERNEL       (K 665): CFG80211-TRACE) __wl_cfg80211_scan : START SCAN
+<6>[ 1:  595.310303] I/KERNEL       (K 661): CFG80211-INFO2) wl_escan_handler : P2P assoc scan fast aborted.
+<6>[ 1:  595.313812] I/KERNEL       (K 661): CFG80211-INFO2) wl_escan_handler : escan is not ready ndev c410e000 drv_status 0x0 e_type 69 e_states 4
+<4>[ 1:  595.320556] I/KERNEL       (K 665): wl_android_priv_cmd: bytes_written = 248
+<4>[ 1:  595.321554] I/KERNEL       (K 665): dhd_wl_ioctl: WLC_IOCTL: cmd: 23, ret = -17
+<6>[ 1:  595.324419] I/KERNEL       (K 665): CFG80211-INFO2) wl_cfg80211_connect : Connectting withae:77:f3 channel (149) ssid "DIRECT-6t-Samsung Galaxy S7", len (27)
+<6>[ 1:  595.324419] I/KERNEL       (K 665): 
+<4>[ 1:  595.374318] I/KERNEL       (K 661): wl_bss_connect_done succeeded with ae:77:f3
+<4>[ 1:  595.376341] I/KERNEL       (K 661): dhdcdc_set_ioctl: SET PM to 0
+<6>[ 1:  595.376954] I/KERNEL       (K 534): cfg80211: Calling CRDA for country: NZ
+<6>[ 1:  595.377106] I/KERNEL       (K 534): cfg80211: Regulatory domain changed to country: NZ
+<6>[ 1:  595.377116] I/KERNEL       (K 534): cfg80211:   (start_freq - end_freq @ bandwidth), (max_antenna_gain, max_eirp)
+<6>[ 1:  595.377127] I/KERNEL       (K 534): cfg80211:   (2402000 KHz - 2482000 KHz @ 40000 KHz), (3000 mBi, 0 mBm)
+<6>[ 1:  595.377136] I/KERNEL       (K 534): cfg80211:   (5170000 KHz - 5250000 KHz @ 80000 KHz), (1700 mBi, 0 mBm)
+<6>[ 1:  595.377144] I/KERNEL       (K 534): cfg80211:   (5250000 KHz - 5330000 KHz @ 80000 KHz), (2400 mBi, 0 mBm)
+<6>[ 1:  595.377152] I/KERNEL       (K 534): cfg80211:   (5735000 KHz - 5835000 KHz @ 80000 KHz), (3000 mBi, 0 mBm)
+<4>[ 1:  595.385502] I/KERNEL       (K  47): ETHER_TYPE_802_1X [RX] : M1 of 4way
+<4>[ 1:  595.402130] I/KERNEL       (K 665): ETHER_TYPE_802_1X [TX] : M2 of 4way
+<4>[ 1:  595.405466] I/KERNEL       (K  47): ETHER_TYPE_802_1X [RX] : M3 of 4way
+<4>[ 1:  595.407755] I/KERNEL       (K 665): ETHER_TYPE_802_1X [TX] : M4 of 4way
+<4>[ 1:  595.476917] I/KERNEL       (K 661): wl_bss_connect_done succeeded with ae:77:f3
+<4>[ 1:  596.082352] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  597.078305] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  598.092496] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<6>[ 1:  598.521739] I/KERNEL       (K  29): sm5703-fuelgauge 4-0071: fg_vbatocv_check: mode change to mix RS auto mode
+<6>[ 1:  598.523664] I/KERNEL       (K  29): sm5703-fuelgauge 4-0071: sm5703_get_soc: temp_fg = 177 , batt_temp = 360, volt_cal = 0x809e, curr_cal = 0x8085, high_temp_cal_fact = 0, low_temp_cal_fact = 0 soc = 759
+<6>[ 1:  598.523691] I/KERNEL       (K  29): sec-battery sec-battery.0: sec_bat_get_battery_info:Vnow(3855mV),Inow(-863mA),Imax(1000mA),SOC(75%),Tbat(360),is_hc_usb(0)
+<6>[ 1:  598.523705] I/KERNEL       (K  29): sec-battery sec-battery.0: Connected,Vavg(3874mV),Vocv(4078mV),Tamb(360),Iavg(-752mA),Iadc(0)
+<6>[ 1:  598.524322] I/KERNEL       (K  29): sec_bat_swelling_check: status(2), swell_mode(0:0), cv(0x1126), temp(360)
+<6>[ 1:  598.524335] I/KERNEL       (K  29): sec_bat_swelling_check: DISCHARGING or NOT-CHARGING. stop swelling mode
+<6>[ 1:  598.524356] I/KERNEL       (K  29): sec-battery sec-battery.0: sec_bat_monitor_work: Status(Discharging), Mode(None), Health(Good), Cable(1), Vendor((null)), level(100%)
+<4>[ 1:  599.091030] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  600.086633] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  601.082914] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  602.087992] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  603.093101] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  604.089840] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  605.095155] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  605.394561] I/KERNEL       (K 534): dhdcdc_set_ioctl: SET PM to 2
+<4>[ 1:  606.098698] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  607.099120] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  608.096333] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<6>[ 1:  608.541817] I/KERNEL       (K  29): sm5703-fuelgauge 4-0071: fg_vbatocv_check: mode change to mix RS auto mode
+<6>[ 1:  608.544131] I/KERNEL       (K  29): sm5703-fuelgauge 4-0071: sm5703_get_soc: temp_fg = 177 , batt_temp = 370, volt_cal = 0x809e, curr_cal = 0x8085, high_temp_cal_fact = 0, low_temp_cal_fact = 0 soc = 757
+<6>[ 1:  608.544174] I/KERNEL       (K  29): sec-battery sec-battery.0: sec_bat_get_battery_info:Vnow(3839mV),Inow(-960mA),Imax(1000mA),SOC(75%),Tbat(370),is_hc_usb(0)
+<6>[ 1:  608.544190] I/KERNEL       (K  29): sec-battery sec-battery.0: Connected,Vavg(3853mV),Vocv(4078mV),Tamb(370),Iavg(-871mA),Iadc(0)
+<6>[ 1:  608.545572] I/KERNEL       (K  29): sec_bat_swelling_check: status(2), swell_mode(0:0), cv(0x1126), temp(370)
+<6>[ 1:  608.545589] I/KERNEL       (K  29): sec_bat_swelling_check: DISCHARGING or NOT-CHARGING. stop swelling mode
+<6>[ 1:  608.545654] I/KERNEL       (K  29): sec-battery sec-battery.0: sec_bat_monitor_work: Status(Discharging), Mode(None), Health(Good), Cable(1), Vendor((null)), level(100%)
+<4>[ 1:  609.101843] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  610.092005] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  611.084126] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  612.085999] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  613.107859] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  614.079885] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  615.081142] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  616.081972] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  617.083467] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  618.089217] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<6>[ 1:  618.582853] I/KERNEL       (K  29): sm5703-fuelgauge 4-0071: fg_vbatocv_check: mode change to mix RS auto mode
+<6>[ 1:  618.585264] I/KERNEL       (K  29): sm5703-fuelgauge 4-0071: sm5703_get_soc: temp_fg = 177 , batt_temp = 380, volt_cal = 0x809e, curr_cal = 0x8085, high_temp_cal_fact = 0, low_temp_cal_fact = 0 soc = 755
+<6>[ 1:  618.585295] I/KERNEL       (K  29): sec-battery sec-battery.0: sec_bat_get_battery_info:Vnow(3839mV),Inow(-988mA),Imax(1000mA),SOC(75%),Tbat(380),is_hc_usb(0)
+<6>[ 1:  618.585310] I/KERNEL       (K  29): sec-battery sec-battery.0: Connected,Vavg(3842mV),Vocv(4074mV),Tamb(380),Iavg(-948mA),Iadc(0)
+<6>[ 1:  618.585847] I/KERNEL       (K  29): sec_bat_swelling_check: status(2), swell_mode(0:0), cv(0x1126), temp(380)
+<6>[ 1:  618.585866] I/KERNEL       (K  29): sec_bat_swelling_check: DISCHARGING or NOT-CHARGING. stop swelling mode
+<6>[ 1:  618.585888] I/KERNEL       (K  29): sec-battery sec-battery.0: sec_bat_monitor_work: Status(Discharging), Mode(None), Health(Good), Cable(1), Vendor((null)), level(100%)
+<4>[ 1:  619.090088] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  620.092577] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  621.092531] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  622.094567] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  623.096894] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  624.097421] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  625.096797] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  626.092012] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  627.092202] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  628.089664] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<6>[ 1:  628.622083] I/KERNEL       (K  29): sm5703-fuelgauge 4-0071: fg_vbatocv_check: mode change to mix RS auto mode
+<6>[ 1:  628.624498] I/KERNEL       (K  29): sm5703-fuelgauge 4-0071: sm5703_get_soc: temp_fg = 177 , batt_temp = 380, volt_cal = 0x809e, curr_cal = 0x8085, high_temp_cal_fact = 0, low_temp_cal_fact = 0 soc = 753
+<6>[ 1:  628.625622] I/KERNEL       (K  29): sec-battery sec-battery.0: sec_bat_get_battery_info:Vnow(3839mV),Inow(-953mA),Imax(1000mA),SOC(75%),Tbat(380),is_hc_usb(0)
+<6>[ 1:  628.626359] I/KERNEL       (K  29): sec-battery sec-battery.0: Connected,Vavg(3839mV),Vocv(4074mV),Tamb(380),Iavg(-964mA),Iadc(0)
+<6>[ 1:  628.626874] I/KERNEL       (K  29): sec_bat_swelling_check: status(2), swell_mode(0:0), cv(0x1126), temp(380)
+<6>[ 1:  628.626884] I/KERNEL       (K  29): sec_bat_swelling_check: DISCHARGING or NOT-CHARGING. stop swelling mode
+<6>[ 1:  628.626904] I/KERNEL       (K  29): sec-battery sec-battery.0: sec_bat_monitor_work: Status(Discharging), Mode(None), Health(Good), Cable(1), Vendor((null)), level(100%)
+<4>[ 1:  629.076998] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  630.078327] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  631.081041] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  632.081492] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  633.081983] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  634.085585] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  635.088394] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  636.091263] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  637.091848] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  638.093475] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<6>[ 1:  638.663568] I/KERNEL       (K  29): sm5703-fuelgauge 4-0071: fg_vbatocv_check: mode change to mix RS auto mode
+<6>[ 1:  638.666214] I/KERNEL       (K  29): sm5703-fuelgauge 4-0071: sm5703_get_soc: temp_fg = 177 , batt_temp = 380, volt_cal = 0x809e, curr_cal = 0x8085, high_temp_cal_fact = 0, low_temp_cal_fact = 0 soc = 752
+<6>[ 1:  638.666248] I/KERNEL       (K  29): sec-battery sec-battery.0: sec_bat_get_battery_info:Vnow(3839mV),Inow(-976mA),Imax(1000mA),SOC(75%),Tbat(380),is_hc_usb(0)
+<6>[ 1:  638.666263] I/KERNEL       (K  29): sec-battery sec-battery.0: Connected,Vavg(3839mV),Vocv(4070mV),Tamb(380),Iavg(-964mA),Iadc(0)
+<6>[ 1:  638.668993] I/KERNEL       (K  29): sec_bat_swelling_check: status(2), swell_mode(0:0), cv(0x1126), temp(380)
+<6>[ 1:  638.669010] I/KERNEL       (K  29): sec_bat_swelling_check: DISCHARGING or NOT-CHARGING. stop swelling mode
+<6>[ 1:  638.669036] I/KERNEL       (K  29): sec-battery sec-battery.0: sec_bat_monitor_work: Status(Discharging), Mode(None), Health(Good), Cable(1), Vendor((null)), level(100%)
+<4>[ 1:  639.103476] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  640.096011] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  641.097719] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  642.091520] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  643.092782] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  644.090661] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  645.077830] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  646.077961] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  647.081077] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  648.079262] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<6>[ 1:  648.701507] I/KERNEL       (K  29): sm5703-fuelgauge 4-0071: fg_vbatocv_check: mode change to mix RS auto mode
+<6>[ 1:  648.703369] I/KERNEL       (K  29): sm5703-fuelgauge 4-0071: sm5703_get_soc: temp_fg = 177 , batt_temp = 390, volt_cal = 0x809e, curr_cal = 0x8085, high_temp_cal_fact = 0, low_temp_cal_fact = 0 soc = 749
+<6>[ 1:  648.703396] I/KERNEL       (K  29): sec-battery sec-battery.0: sec_bat_get_battery_info:Vnow(3828mV),Inow(-980mA),Imax(1000mA),SOC(74%),Tbat(390),is_hc_usb(0)
+<6>[ 1:  648.703410] I/KERNEL       (K  29): sec-battery sec-battery.0: Connected,Vavg(3834mV),Vocv(4070mV),Tamb(390),Iavg(-974mA),Iadc(0)
+<6>[ 1:  648.703917] I/KERNEL       (K  29): sec_bat_swelling_check: status(2), swell_mode(0:0), cv(0x1126), temp(390)
+<6>[ 1:  648.703930] I/KERNEL       (K  29): sec_bat_swelling_check: DISCHARGING or NOT-CHARGING. stop swelling mode
+<6>[ 1:  648.703951] I/KERNEL       (K  29): sec-battery sec-battery.0: sec_bat_monitor_work: Status(Discharging), Mode(None), Health(Good), Cable(1), Vendor((null)), level(100%)
+<4>[ 1:  649.081308] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  650.087827] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  651.087504] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  652.106632] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  653.090982] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  654.095841] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  655.095927] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  656.097934] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  657.097842] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  658.100168] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<6>[ 1:  658.721580] I/KERNEL       (K  29): sm5703-fuelgauge 4-0071: fg_vbatocv_check: mode change to mix RS auto mode
+<6>[ 1:  658.723550] I/KERNEL       (K  29): sm5703-fuelgauge 4-0071: sm5703_get_soc: temp_fg = 177 , batt_temp = 390, volt_cal = 0x809e, curr_cal = 0x8085, high_temp_cal_fact = 0, low_temp_cal_fact = 0 soc = 747
+<6>[ 1:  658.723579] I/KERNEL       (K  29): sec-battery sec-battery.0: sec_bat_get_battery_info:Vnow(3835mV),Inow(-1031mA),Imax(1000mA),SOC(74%),Tbat(390),is_hc_usb(0)
+<6>[ 1:  658.723594] I/KERNEL       (K  29): sec-battery sec-battery.0: Connected,Vavg(3831mV),Vocv(4066mV),Tamb(390),Iavg(-997mA),Iadc(0)
+<6>[ 1:  658.724084] I/KERNEL       (K  29): sec_bat_swelling_check: status(2), swell_mode(0:0), cv(0x1126), temp(390)
+<6>[ 1:  658.724094] I/KERNEL       (K  29): sec_bat_swelling_check: DISCHARGING or NOT-CHARGING. stop swelling mode
+<6>[ 1:  658.724114] I/KERNEL       (K  29): sec-battery sec-battery.0: sec_bat_monitor_work: Status(Discharging), Mode(None), Health(Good), Cable(1), Vendor((null)), level(100%)
+<4>[ 1:  659.090381] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  660.091026] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  661.076225] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  662.081102] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  663.079946] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  664.081265] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  665.081213] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  666.088994] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  667.088153] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  668.091027] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<6>[ 1:  668.741585] I/KERNEL       (K  29): sm5703-fuelgauge 4-0071: fg_vbatocv_check: mode change to mix RS auto mode
+<6>[ 1:  668.743937] I/KERNEL       (K  29): sm5703-fuelgauge 4-0071: sm5703_get_soc: temp_fg = 177 , batt_temp = 390, volt_cal = 0x809e, curr_cal = 0x8085, high_temp_cal_fact = 0, low_temp_cal_fact = 0 soc = 745
+<6>[ 1:  668.744008] I/KERNEL       (K  29): sec-battery sec-battery.0: sec_bat_get_battery_info:Vnow(3824mV),Inow(-902mA),Imax(1000mA),SOC(74%),Tbat(390),is_hc_usb(0)
+<6>[ 1:  668.744023] I/KERNEL       (K  29): sec-battery sec-battery.0: Connected,Vavg(3829mV),Vocv(4066mV),Tamb(390),Iavg(-973mA),Iadc(0)
+<6>[ 1:  668.745063] I/KERNEL       (K  29): sec_bat_swelling_check: status(2), swell_mode(0:0), cv(0x1126), temp(390)
+<6>[ 1:  668.745077] I/KERNEL       (K  29): sec_bat_swelling_check: DISCHARGING or NOT-CHARGING. stop swelling mode
+<6>[ 1:  668.745098] I/KERNEL       (K  29): sec-battery sec-battery.0: sec_bat_monitor_work: Status(Discharging), Mode(None), Health(Good), Cable(1), Vendor((null)), level(100%)
+<4>[ 1:  669.093637] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  670.092185] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  671.094085] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  672.098078] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  673.088717] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  674.101047] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  675.090513] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  676.093020] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  677.093237] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  678.080052] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<6>[ 1:  678.782571] I/KERNEL       (K  29): sm5703-fuelgauge 4-0071: fg_vbatocv_check: mode change to mix RS auto mode
+<6>[ 1:  678.784568] I/KERNEL       (K  29): sm5703-fuelgauge 4-0071: sm5703_get_soc: temp_fg = 177 , batt_temp = 390, volt_cal = 0x809e, curr_cal = 0x8085, high_temp_cal_fact = 0, low_temp_cal_fact = 0 soc = 743
+<6>[ 1:  678.784597] I/KERNEL       (K  29): sec-battery sec-battery.0: sec_bat_get_battery_info:Vnow(3828mV),Inow(-890mA),Imax(1000mA),SOC(74%),Tbat(390),is_hc_usb(0)
+<6>[ 1:  678.784611] I/KERNEL       (K  29): sec-battery sec-battery.0: Connected,Vavg(3826mV),Vocv(4062mV),Tamb(390),Iavg(-915mA),Iadc(0)
+<6>[ 1:  678.786706] I/KERNEL       (K  29): sec_bat_swelling_check: status(2), swell_mode(0:0), cv(0x1126), temp(390)
+<6>[ 1:  678.786722] I/KERNEL       (K  29): sec_bat_swelling_check: DISCHARGING or NOT-CHARGING. stop swelling mode
+<6>[ 1:  678.786746] I/KERNEL       (K  29): sec-battery sec-battery.0: sec_bat_monitor_work: Status(Discharging), Mode(None), Health(Good), Cable(1), Vendor((null)), level(100%)
+<4>[ 1:  679.081096] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  680.098709] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  681.081831] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  682.087355] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  683.086283] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  684.089488] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  685.091403] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  686.091350] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  687.096899] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  688.094763] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<6>[ 1:  688.822582] I/KERNEL       (K  29): sm5703-fuelgauge 4-0071: fg_vbatocv_check: mode change to mix RS auto mode
+<6>[ 1:  688.825382] I/KERNEL       (K  29): sm5703-fuelgauge 4-0071: sm5703_get_soc: temp_fg = 177 , batt_temp = 400, volt_cal = 0x809e, curr_cal = 0x8085, high_temp_cal_fact = 0, low_temp_cal_fact = 0 soc = 741
+<6>[ 1:  688.825416] I/KERNEL       (K  29): sec-battery sec-battery.0: sec_bat_get_battery_info:Vnow(3820mV),Inow(-1003mA),Imax(1000mA),SOC(74%),Tbat(400),is_hc_usb(0)
+<6>[ 1:  688.825430] I/KERNEL       (K  29): sec-battery sec-battery.0: Connected,Vavg(3824mV),Vocv(4062mV),Tamb(400),Iavg(-938mA),Iadc(0)
+<6>[ 1:  688.825974] I/KERNEL       (K  29): sec_bat_swelling_check: status(2), swell_mode(0:0), cv(0x1126), temp(400)
+<6>[ 1:  688.825989] I/KERNEL       (K  29): sec_bat_swelling_check: DISCHARGING or NOT-CHARGING. stop swelling mode
+<6>[ 1:  688.826013] I/KERNEL       (K  29): sec-battery sec-battery.0: sec_bat_monitor_work: Status(Discharging), Mode(None), Health(Good), Cable(1), Vendor((null)), level(100%)
+<4>[ 1:  689.087725] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  690.088701] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  691.090088] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  692.089890] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  693.105804] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  694.097495] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  695.082911] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  696.079287] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  697.082870] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  698.087127] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<6>[ 1:  698.863607] I/KERNEL       (K  29): sm5703-fuelgauge 4-0071: fg_vbatocv_check: mode change to mix RS auto mode
+<6>[ 1:  698.866116] I/KERNEL       (K  29): sm5703-fuelgauge 4-0071: sm5703_get_soc: temp_fg = 177 , batt_temp = 400, volt_cal = 0x809e, curr_cal = 0x8085, high_temp_cal_fact = 0, low_temp_cal_fact = 0 soc = 739
+<6>[ 1:  698.866197] I/KERNEL       (K  29): sec-battery sec-battery.0: sec_bat_get_battery_info:Vnow(3832mV),Inow(-1046mA),Imax(1000mA),SOC(73%),Tbat(400),is_hc_usb(0)
+<6>[ 1:  698.866221] I/KERNEL       (K  29): sec-battery sec-battery.0: Connected,Vavg(3825mV),Vocv(4058mV),Tamb(400),Iavg(-1002mA),Iadc(0)
+<6>[ 1:  698.867127] I/KERNEL       (K  29): sec_bat_swelling_check: status(2), swell_mode(0:0), cv(0x1126), temp(400)
+<6>[ 1:  698.867140] I/KERNEL       (K  29): sec_bat_swelling_check: DISCHARGING or NOT-CHARGING. stop swelling mode
+<6>[ 1:  698.867162] I/KERNEL       (K  29): sec-battery sec-battery.0: sec_bat_monitor_work: Status(Discharging), Mode(None), Health(Good), Cable(1), Vendor((null)), level(100%)
+<4>[ 1:  699.089744] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  700.088383] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  701.088757] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  702.093538] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  703.090814] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  704.096534] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  705.095592] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  706.120802] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  707.089611] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  708.093072] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<6>[ 1:  708.901880] I/KERNEL       (K  29): sm5703-fuelgauge 4-0071: fg_vbatocv_check: mode change to mix RS auto mode
+<6>[ 1:  708.903722] I/KERNEL       (K  29): sm5703-fuelgauge 4-0071: sm5703_get_soc: temp_fg = 177 , batt_temp = 400, volt_cal = 0x809e, curr_cal = 0x8085, high_temp_cal_fact = 0, low_temp_cal_fact = 0 soc = 737
+<6>[ 1:  708.903744] I/KERNEL       (K  29): sec-battery sec-battery.0: sec_bat_get_battery_info:Vnow(3816mV),Inow(-921mA),Imax(1000mA),SOC(73%),Tbat(400),is_hc_usb(0)
+<6>[ 1:  708.903758] I/KERNEL       (K  29): sec-battery sec-battery.0: Connected,Vavg(3824mV),Vocv(4058mV),Tamb(400),Iavg(-987mA),Iadc(0)
+<6>[ 1:  708.904231] I/KERNEL       (K  29): sec_bat_swelling_check: status(2), swell_mode(0:0), cv(0x1126), temp(400)
+<6>[ 1:  708.904239] I/KERNEL       (K  29): sec_bat_swelling_check: DISCHARGING or NOT-CHARGING. stop swelling mode
+<6>[ 1:  708.904258] I/KERNEL       (K  29): sec-battery sec-battery.0: sec_bat_monitor_work: Status(Discharging), Mode(None), Health(Good), Cable(1), Vendor((null)), level(100%)
+<4>[ 1:  709.090820] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  710.095600] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  711.080259] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  712.081804] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  713.085510] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  714.085671] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  715.089643] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  716.092059] I/KERNEL       (K 255): STATUS_LCD: Failed to create debugfs directory
+<4>[ 1:  717.470631] I/KERNEL       (K 583): [sound/soc/codecs/wm8994.c, fn:check_clk_sys, 263]
+<4>[ 1:  717.471142] I/KERNEL       (K  29): [sound/soc/codecs/wm8994.c, fn:wm8994_set_bias_level, 2352]
+<4>[ 1:  717.625374] I/KERNEL       (K 571): [sound/soc/codecs/wm8994.c, fn:wm8994_set_bias_level, 2352]
