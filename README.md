@@ -1,7 +1,7 @@
 Samsung Gear 360 Firmware Notes
 ===============================
 
-Just some notes on Samsung Gear 360 and it's firmware. Experiments here were done using rooted Samsung Galaxy S5 DUOS phone (SM-900FD).
+Just some notes on Samsung Gear 360 and its firmware. Experiments here were done using rooted Samsung Galaxy S5 DUOS phone (SM-900FD) and a Linux machine (Arch Linux).
 
 Android APK
 -----------
@@ -9,6 +9,8 @@ Android APK
 Manager application for Android contains few useful information. APK file can be [downloaded from this location](http://www.apkmirror.com/apk/samsung-electronics-co-ltd/samsung-gear-360-manager/samsung-gear-360-manager-1-0-4-release/samsung-gear-360-manager-1-0-4-android-apk-download/), there's also [this thread](http://forum.xda-developers.com/android/software/mod-samsung-gear-360-manager-device-t3400383) on xda-developers.
 
 Next thing is to decompile .apk file, I used [this online service](http://www.javadecompilers.com/apk) to do it. Resulting source code is ~87 MB big.
+
+Note: always check these online sites for worms/virises/etc. as they come and go and someone might put something nasty there.
 
 Few interesting bits:
 
@@ -22,12 +24,12 @@ Android application uses Bluetooth communication to send commands to the camera,
 
 ### Dumping Bluetooth Traffic
 
-Newer versions of Android have built-in functionality to dump Bluetooth traffic (you have to have [Developer Mode](https://www.google.nl/?ion=1&espv=2#q=how%20to%20enable%20developer%20mode%20on%20android) enabled). Go to Settings → Developer options → Select Bluetooth HCI snoop log. Log/dump file is then saved in ```/sdcard/btsnoop_hci.log``` (or not: see [stackoverflow](http://stackoverflow.com/questions/28445552/bluetooth-hci-snoop-log-not-generated)). Such file can be viewed with [Wireshark](https://www.wireshark.org/).
+Newer versions of Android have built-in functionality to dump Bluetooth traffic (you have to have [Developer Mode](https://www.google.nl/?ion=1&espv=2#q=how%20to%20enable%20developer%20mode%20on%20android) enabled). Go to Settings → Developer options → Select Bluetooth HCI snoop log. Log/dump file is then saved in ```/sdcard/btsnoop_hci.log``` (or not: see [stackoverflow](http://stackoverflow.com/questions/28445552/bluetooth-hci-snoop-log-not-generated)). This file can be viewed with [Wireshark](https://www.wireshark.org/).
 
 ![Android Bluetooth dump setting](bluetooth_dump_256p.png?raw=true "Android Bluetooth dump setting")
 ![Wireshark and Bluetooth dump](wireshark_bt.png?raw=true "Wireshark and Bluetooth dump")
 
-Communication uses [JSON Format](https://en.wikipedia.org/wiki/JSON). Under Linux you can initiate Bluetooth serial connection with Gear360, but the data exchange protocol is not yet known:
+Communication uses [JSON Format](https://en.wikipedia.org/wiki/JSON). Under Linux you can initiate Bluetooth serial connection with Gear360, but the data exchange protocol is not yet known (i.e. couldn't make it to work):
 
     > # Note: this doesn't work?
     > # 00:11:22:33:44:55 is a Bluetooth address of Gear360
@@ -82,13 +84,14 @@ Port scan:
 ```tcpdump``` on Android can be used to dump wifi traffic, links to individual files can be extracted and then downloaded:
 
     root@MSM8974:/storage/_temp/nmap-6.46/nmap-6.46/bin # wget http://192.168.49.10:7679/smp00780060001010029.mp4
-    Connecting to 192.168.49.10:7679 (192.168.49.10:7679)                                                                               smp00780060001010029   7% |******                | 11694k  0:00:36 ETA
+    Connecting to 192.168.49.10:7679 (192.168.49.10:7679)
+    smp00780060001010029   7% |******                | 11694k  0:00:36 ETA
 
 
 Firmware Structure
 ------------------
 
-Recent firmware (```0.7```) is in a single file with a bit weird file format (couldn't find any references to id), [binwalk](http://binwalk.org/) is able to detect Linux kernels, but nothing else:
+Recent firmware (```0.7```) is in a single file with a bit weird file format (couldn't find any references to it), [binwalk](http://binwalk.org/) is able to detect Linux kernels, but nothing else:
 
     DECIMAL       HEXADECIMAL     DESCRIPTION                                                                             --------------------------------------------------------------------------------                                      304           0x130           uImage header, header size: 64 bytes, header CRC: 0x863045F5, created: 2016-03-05 02:02:42, image siz
     e: 6684536 bytes, Data Address: 0x86008000, Entry Point: 0x86008000, data CRC: 0xD1C62632, OS: Linux, CPU: ARM, image type: OS Kern
@@ -98,9 +101,9 @@ Recent firmware (```0.7```) is in a single file with a bit weird file format (co
     e: 6765472 bytes, Data Address: 0x86008000, Entry Point: 0x86008000, data CRC: 0x4B4643B0, OS: Linux, CPU: ARM, image type: OS Kern
     el Image, compression type: none, image name: "Linux-3.5.0"                                                           10640549      0xA25CA5        gzip compressed data, maximum compression, from Unix, NULL date (1970-01-01 00:00:00)
 
-But still that information turned out to be useful to decode header of the binary file. If we take kernel offsets and file sizes we can find similar values in the firmware file (they differ a bit).
+Still that information turned out to be useful to decode header of the binary file. If we take kernel offsets and file sizes we can find similar values in the firmware file (they differ a bit).
 
-First 64 bytes seem to be a information about the file itself (magic bytes, firmware name, version, etc.):
+First 64 bytes seem to be a information about the file (magic bytes, firmware name, version, etc.):
 
     > hexdump -n 64 -C ./firmware.bin
     00000000  53 4c 50 00 30 2e 37 30  00 00 00 00 53 4d 43 32  |SLP.0.70....SMC2|
@@ -178,7 +181,7 @@ chunk6 is root filesystem, chunk7 is ```/opt``` mount point.
 Getting Inside
 --------------
 
-Looks like there's not way to get a remote console; trying to connect on any of the non-HTTP ports gets you nowhere. For the moment I didn't find any hooks to enable debug mode or something smiliar. Just possibly there's a console but on a hardware serial port.
+Looks like there's not way to get a remote console; trying to connect on any of the non-HTTP ports gets you nowhere. For the moment I didn't find any hooks to enable debug mode or something smiliar. Possibly there's a console but on a hardware serial port.
 
 ### Interesting files
 
@@ -236,7 +239,8 @@ Links
 Few links:
 
 - [official Samsung Gear360 website](http://www.samsung.com/global/galaxy/gear-360/),
-- [source code for Samsung Gear360](https://opensource.samsung.com/reception/receptionSub.do?method=sub&sub=T&menu_item=mobile&classification1=mp3_player), 1.4 GB, note: not everything is open source in the final firmware, there are also no instructions how to flash the firmware).
-- [firmware file version 0.7](https://www.samsungimaging.com/file/download?XmlIdx=280&file=C200GLU0APE4_160519_1848_REV00_user.bin) (~340 MB).
+- [source code for Samsung Gear360](https://opensource.samsung.com/reception/receptionSub.do?method=sub&sub=T&menu_item=mobile&classification1=mp3_player), 1.4 GB, note: not everything is open source in the final firmware, there are also no instructions how to flash the firmware),
+- [firmware file version 0.7](https://www.samsungimaging.com/file/download?XmlIdx=280&file=C200GLU0APE4_160519_1848_REV00_user.bin) (~340 MB),
+- [NX500/NX1 modding](https://github.com/ottokiksmaler/nx500_nx1_modding), modding resources for a different Samsung cameras.
 
-Note that some things can be copied from NX-* camera tutorials/guides (some things are similar).
+Note that some things could be copied from NX-* camera tutorials/guides (some things are similar).
