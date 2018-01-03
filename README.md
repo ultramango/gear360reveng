@@ -14,7 +14,7 @@ Note: always check these online sites for worms/virises/etc. as they come and go
 
 Few interesting bits:
 
-- file ```com/samsung/android/samsunggear360manager/app/btm/FWConstants.java``` contains location of proxy file that contains link to firmware file: ```public static final String FW_DOWNLOAD_SERVER_URL = "https://www.samsungimaging.com/common/support/firmware/downloadUrlList.do?prd_mdl_name=SM-C200&loc=global";```, now, this contains [link to firmware file](https://www.samsungimaging.com/file/download?XmlIdx=280&file=C200GLU0APE4_160519_1848_REV00_user.bin),
+- file ```com/samsung/android/samsunggear360manager/app/btm/FWConstants.java``` contains location of proxy file that contains link to firmware file: ```public static final String FW_DOWNLOAD_SERVER_URL = "https://www.samsungimaging.com/common/support/firmware/downloadUrlList.do?prd_mdl_name=SM-C200&loc=global";```, now, this contains [link to firmware file](https://www.samsungimaging.com/file/download?XmlIdx=280&file=C200GLU0APE4_160519_1848_REV00_user.bin) (also check for latest version at the end of this file),
 - file ```com/samsung/android/samsunggear360manager/app/btm/datatype/BTJsonSerializableMsgId.java``` contains constants with message types that are used during Bluetooth communication.
 
 Communication
