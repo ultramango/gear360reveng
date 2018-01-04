@@ -243,6 +243,8 @@ Few links:
 - [firmware file version 0.7](https://www.samsungimaging.com/file/download?XmlIdx=280&file=C200GLU0APE4_160519_1848_REV00_user.bin) (~340 MB),
 - [firmware file version 0.83](https://www.samsungimaging.com/file/download?XmlIdx=291&file=C200GLU0AQF1_170619_2058_REV00_user.bin) (~270 MB),
 - [firmware file version 2017-11-21](https://www.samsungimaging.com/file/download?XmlIdx=291&file=C200GLU0AQK1_171121_1257_REV00_user.bin) (~266 MB),
-- [NX500/NX1 modding](https://github.com/ottokiksmaler/nx500_nx1_modding), modding resources for a different Samsung cameras.
+- [NX500/NX1 modding](https://github.com/ottokiksmaler/nx500_nx1_modding), modding resources for a different Samsung cameras,
+- [FCC page](https://fccid.io/A3LSMC200),
+- [Internal images from FCC page](https://fccid.io/A3LSMC200/Internal-Photos/Internal-Photos-20160222-v1-05-Internal-Photos-SM-C200-2910602).
 
 Note that some things could be copied from NX-* camera tutorials/guides (some things are similar).
