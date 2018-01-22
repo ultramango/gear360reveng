@@ -178,6 +178,10 @@ Note: chunks6 and 7 are ext4, chunk9 looks to be a swap partition. The other? Do
 
 chunk6 is root filesystem, chunk7 is ```/opt``` mount point.
 
+Most likely there is a chunk for each of the default Tizen partitions described [here](https://docs.tizen.org/docs/open-source-tizen/porting/kernel.page#tizen-partition-layout).
+
+![Tizen partition layout](https://docs.tizen.org/docs/open-source-tizen/porting/media/800px-Partitionlayout.png)
+
 Getting Inside
 --------------
 
