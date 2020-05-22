@@ -243,7 +243,7 @@ Links
 Few links:
 
 - [official Samsung Gear360 website](http://www.samsung.com/global/galaxy/gear-360/),
-- [source code for Samsung Gear360](https://opensource.samsung.com/reception/receptionSub.do?method=sub&sub=T&menu_item=mobile&classification1=mp3_player), 1.4 GB, note: not everything is open source in the final firmware, there are also no instructions how to flash the firmware),
+- [source code for Samsung Gear360](https://opensource.samsung.com/uploadSearch?searchValue=c200), 1.4 GB, note: not everything is open source in the final firmware, there are also no instructions how to flash the firmware),
 - [firmware file version 0.7](https://www.samsungimaging.com/file/download?XmlIdx=280&file=C200GLU0APE4_160519_1848_REV00_user.bin) (~340 MB),
 - [firmware file version 0.83](https://www.samsungimaging.com/file/download?XmlIdx=291&file=C200GLU0AQF1_170619_2058_REV00_user.bin) (~270 MB),
 - [firmware file version 2017-11-21](https://www.samsungimaging.com/file/download?XmlIdx=291&file=C200GLU0AQK1_171121_1257_REV00_user.bin) (~266 MB),
